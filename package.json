@@ -1,0 +1,25 @@
+{
+  "name": "amazon-website-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:production:us": "npx cross-env LOCALE=US npx playwright test tests --project=production",
+    "test:production:de": "npx cross-env LOCALE=DE npx playwright test tests --project=production",
+    "test:production:uk": "npx cross-env LOCALE=UK npx playwright test tests --project=production",
+    "test:e2e": "npx cross-env USE_STAGING=false playwright test --project=production",
+    "test:e2e:ci": "npx cross-env ENV=ci LOCALE=US USE_STAGING=true CI=1 playwright test --project=ci --shard=$CI_NODE_INDEX/$CI_NODE_TOTAL",
+    "test:e2e:dev": "npx cross-env ENV=dev LOCALE=US USE_STAGING=true playwright test --project=dev",
+    "test:e2e:smoke": "npx cross-env USE_STAGING=false LOCALE=US playwright test --grep @smoke --project=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "@types/winston": "^2.4.4",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3"
+  }
+}
