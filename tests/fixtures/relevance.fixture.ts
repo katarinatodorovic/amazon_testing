@@ -7,10 +7,10 @@ import { JsonTestDataReader } from "../../utils/JsonTestDataReader"
  * @param term - the search term to get variants for
  * @returns - a promise that resolves to the keyword variants
  */
-export const test = base.extend<{ keywordVariants: (term: string) => Promise<unknown> }>({
-  keywordVariants: async ({}, use) => {
+export const test = base.extend<{ keyWordVariants: (term: string) => Promise<unknown> }>({
+  keyWordVariants: async ({}, use) => {
     await use((term) => {
-      return JsonTestDataReader.getJSONValue("keywordVariants.json", term)
+      return JsonTestDataReader.getJSONValue("keyWordVariants.json", term)
     })
   }
 })

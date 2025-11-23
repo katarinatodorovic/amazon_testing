@@ -26,13 +26,12 @@ test.describe("TC009, Search results relevance", () => {
 
     const searchTerm = testData.validProducts.wirelessMouse.toLowerCase();
 
-    const keywordVariants: string[] = JsonTestDataReader.getJSONValue(
-      "keywordVariants.json",
+    const keyWordVariants: string[] = JsonTestDataReader.getJSONValue(
+      "keyWordVariants.json",
       searchTerm
     );
 
-    LoggerUtility.info(`TC009 - Loaded keyword variants: ${JSON.stringify(keywordVariants)}`);
-
+    LoggerUtility.info(`TC009 - Loaded keyword variants: ${JSON.stringify(keyWordVariants)}`);
     await homePage.searchForItem(searchTerm);
 
     await resultsPage.waitForResults();
@@ -45,7 +44,7 @@ test.describe("TC009, Search results relevance", () => {
 
     const relevantCount = titles.filter(title => {
       const text = title.toLowerCase();
-      return keywordVariants.some(kw => text.includes(kw));
+      return keyWordVariants.some(kw => text.includes(kw));
     }).length;
 
     const relevance = (relevantCount / titles.length) * 100;
