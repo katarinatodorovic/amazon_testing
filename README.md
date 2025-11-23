@@ -6,6 +6,27 @@ Amazon Website Testing – Playwright Automation Framework
 /tests/fixtures - fixtures 
 /utils – Utilities  
 /test_data – JSON input  
+
+Authentication & Credentials Handling
+
+Plaintext secrets live in config/.env.plain.<env> (local only, ignored by Git)
+These are encrypted using AES-256 and stored as config/.env.encrypted.<env>
+A decryption step loads environment-specific encrypted values at runtime
+Decrypted credentials are passed to Playwright via a typed fixture
+A global setup logs in once and stores authentication state
+All tests reuse this stored session, skipping the login step
+(Disclaimer: the authentication and login flow are not actively used in the current test suite, however the framework already includes full infrastructure support for it.)
+
+Encryption commands
+npm run encrypt-env
+npm run encrypt-env:staging
+npm run encrypt-env:production
+
+Template for .env.plain.local (example values only)
+SALT=<your-salt>
+USERNAME=exampleUser
+PASSWORD=examplePassword123
+
 2.Installation
 npm install  
 npx playwright install  
