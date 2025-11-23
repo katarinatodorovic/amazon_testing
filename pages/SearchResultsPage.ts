@@ -16,6 +16,7 @@ export class SearchResultsPage extends BasePage {
   readonly dismissLocationModal: Locator;
   readonly pagination: Locator;
   readonly labelText: Locator;
+  readonly otherBuyingOptions: Locator;
   
 
   constructor(page: Page) {
@@ -27,6 +28,8 @@ export class SearchResultsPage extends BasePage {
     this.dismissLocationModal = page.locator('input.a-button-input[data-action-type="DISMISS"]');
     this.pagination = this.page.locator("span.s-pagination-item");
     this.labelText = this.page.locator('span[data-component-type="s-result-info-bar"]').first();
+    this.otherBuyingOptions = this.page.locator
+    ('span[data-component-type="s-messaging-widget-results-header"] div.a-row.a-size-base span.a-size-base.a-color-secondary.a-text-normal');
 
   }
 
@@ -268,5 +271,20 @@ async scrollUntilPaginationVisible(timeout = 10_000): Promise<void> {
   }
 
   LoggerUtility.warn("Pagination bar did not appear within timeout.");
+ }
+ /**
+   * Method to get the message related to other buying options
+   * when no results are found
+   * @returns - string containing the message related to other buying options
+   */
+  async getCheckOtherOptionsMessage(): Promise<string> {
+    LoggerUtility.info("Checking for 'other buying option' message presence");
+      try {
+      await this.otherBuyingOptions.first().waitFor({ timeout: 5000 });
+      const text = (await this.otherBuyingOptions.first().innerText()).trim();
+      return text;
+    } catch {
+      return "";
+  }
  }
 }

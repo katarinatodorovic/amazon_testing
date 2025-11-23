@@ -14,7 +14,6 @@ export class AmazonHomePage extends BasePage {
   readonly desktopSearch: Locator;
   readonly mobileSearch: Locator;
   readonly noResultsMessage: Locator;
-  readonly otherBuyingOptions: Locator;
   readonly addressSelection: Locator;
   readonly dismissLocationModal: Locator;
 
@@ -29,8 +28,6 @@ export class AmazonHomePage extends BasePage {
     this.mobileSearch = this.page.locator(
       'input[type="search"], input[aria-label="Search Amazon"], #nav-bb-search'
     );
-    this.otherBuyingOptions = this.page.locator
-    ('span[data-component-type="s-messaging-widget-results-header"] div.a-row.a-size-base span.a-size-base.a-color-secondary.a-text-normal');
     this.addressSelection = this.page.locator('button[name="glowDoneButton"]');
     this.dismissLocationModal = this.page.locator
     ('input.a-button-input[data-action-type="DISMISS"]');
@@ -105,20 +102,4 @@ async performSearch(item: string, mode: "enter" | "button" = "button"): Promise<
     await this.typeTextIntoField(this.searchBox, "");
     LoggerUtility.info("Search box cleared");
   }
-
-  /**
-   * Method to get the message related to other buying options
-   * when no results are found
-   * @returns - string containing the message related to other buying options
-   */
-  async getCheckOtherOptionsMessage(): Promise<string> {
-    LoggerUtility.info("Checking for 'other buying option' message presence");
-      try {
-      await this.otherBuyingOptions.first().waitFor({ timeout: 5000 });
-      const text = (await this.otherBuyingOptions.first().innerText()).trim();
-      return text;
-    } catch {
-      return "";
-  }
- }
 }

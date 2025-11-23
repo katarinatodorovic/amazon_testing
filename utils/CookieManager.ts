@@ -1,5 +1,5 @@
 import { Page } from "@playwright/test";
-import LocaleSetup, { LocaleKey } from "../utils/LocaleSetup";
+import LocaleSetup, { LocaleKey } from "./LocaleSetup";
 
 /**
  * Class that adds necessary cookies for locale and currency preferences 

@@ -31,7 +31,7 @@ test("TC014, Long query processes without crash or timeout", async ({ homePage, 
   await resultsPage.waitForResults();
 
   LoggerUtility.info("Checking if Other buying option text is present");
-  const otherByingOptionText = await homePage.getCheckOtherOptionsMessage();
+  const otherByingOptionText = await resultsPage.getCheckOtherOptionsMessage();
   expect(otherByingOptionText).toContain("other buying option");
 
   const url = page.url().toLowerCase();

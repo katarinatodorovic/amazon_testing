@@ -17,7 +17,7 @@ import testData from "../test_data/data.json";
 test.describe("TC002, Search input edge cases (data-driven)", () => {
   const invalidTerms = Object.values(testData.invalidProducts);
 
-  test("TC002, @smoke Invalid search terms should not break Amazon", async ({ homePage, page }) => {
+  test("TC002, @smoke Invalid search terms should not break Amazon", async ({ homePage, resultsPage,page }) => {
 
     // Collect failures so test continues through all terms
     const failures: string[] = [];
@@ -49,7 +49,7 @@ test.describe("TC002, Search input edge cases (data-driven)", () => {
         let message = "";
 
         try {
-          message = await homePage.getCheckOtherOptionsMessage();
+          message = await resultsPage.getCheckOtherOptionsMessage();
         } catch (err) {
           message = `<extracted exception: ${err}>`;
         }
