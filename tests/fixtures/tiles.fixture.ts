@@ -5,6 +5,11 @@ interface ResultsPage {
   getTopProductTitles(limit: number): Promise<string[]>
 }
 
+/**
+ * Fixture for tiles tests
+ * Provides methods to get all tiles and top product titles from the results page
+ * @returns - an array of tiles and a function to get top product titles
+ */
 export const test = base.extend<{
   tiles: unknown[]
   topTitles: (limit: number) => Promise<string[]>

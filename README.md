@@ -2,7 +2,8 @@
 Amazon Website Testing – Playwright Automation Framework
 1. Project Structure
 /pages – POM classes  
-/tests – Test files  
+/tests – Test files 
+/tests/fixtures - fixtures 
 /utils – Utilities  
 /test_data – JSON input  
 2.Installation

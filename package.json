@@ -9,7 +9,15 @@
     "test:e2e": "npx cross-env USE_STAGING=false playwright test --project=production",
     "test:e2e:ci": "npx cross-env ENV=ci LOCALE=US USE_STAGING=true CI=1 playwright test --project=ci --shard=$CI_NODE_INDEX/$CI_NODE_TOTAL",
     "test:e2e:dev": "npx cross-env ENV=dev LOCALE=US USE_STAGING=true playwright test --project=dev",
-    "test:e2e:smoke": "npx cross-env USE_STAGING=false LOCALE=US playwright test --grep @smoke --project=production"
+    "test:e2e:smoke": "npx cross-env USE_STAGING=false LOCALE=US playwright test --grep @smoke --project=production",
+    "encrypt-env": "npx cross-env ENV=local ts-node scripts/EncryptEnv.ts",
+    "encrypt-env:staging": "npx cross-env ENV=staging ts-node scripts/EncryptEnv.ts",
+    "encrypt-env:production": "npx cross-env ENV=production ts-node scripts/EncryptEnv.ts",
+    "encrypt-env:ci": "npx cross-env ENV=ci ts-node scripts/EncryptEnv.ts",
+    "decrypt-env-console": "npx cross-env ENV=local ts-node scripts/EncryptEnv.ts decrypt-console",
+    "decrypt-env-console:staging": "npx cross-env ENV=staging ts-node scripts/EncryptEnv.ts decrypt-console",
+    "decrypt-env-console:production": "npx cross-env ENV=production ts-node scripts/EncryptEnv.ts decrypt-console",
+    "decrypt-env-console:ci": "npx cross-env ENV=ci ts-node scripts/EncryptEnv.ts decrypt-console"
   },
   "keywords": [],
   "author": "",
@@ -17,9 +25,15 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.56.1",
+    "@types/crypto-js": "^4.2.2",
     "@types/node": "^24.10.0",
     "@types/winston": "^2.4.4",
     "cross-env": "^10.1.0",
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
   }
 }

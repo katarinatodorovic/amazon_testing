@@ -1,11 +1,24 @@
 require("dotenv").config(); 
 import { defineConfig, devices } from '@playwright/test';
+import { EncryptionUtils } from "./utils/EncryptionUtils";
 import LocaleSetup, { LocaleKey } from "./utils/LocaleSetup";
 import EnvSetup, {
   resolveRuntimeEnv,
   resolveRuntimeLocale,
   resolveRuntimeUseStaging,
 } from "./utils/EnvSetup";
+
+// local / staging / production / ci
+const ENV = resolveRuntimeEnv();  
+/** 
+ * Encrypted environment variables
+ * Decrypt and load sensitive environment variables at runtime
+ * using EncryptionUtils before tests run.
+ */
+const encryptedFileName = `.env.encrypted.${ENV}`;
+const decryptedEnv = EncryptionUtils.decryptEncryptedEnv(encryptedFileName);
+process.env.DECRYPTED_USERNAME = decryptedEnv.USERNAME;
+process.env.DECRYPTED_PASSWORD = decryptedEnv.PASSWORD;
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -20,7 +33,7 @@ import EnvSetup, {
  */
 
 function buildRuntimeConfig(projectName: string) {
-  const ENV = resolveRuntimeEnv(); 
+  //const ENV = resolveRuntimeEnv(); 
   const envConf = EnvSetup[ENV]; 
   const finalLocale = resolveRuntimeLocale(envConf); 
   const locale = LocaleSetup[finalLocale]; 
@@ -67,6 +80,7 @@ export default defineConfig({
   testDir: './tests',
   timeout: 60_000,
   fullyParallel: false,
+  globalSetup: './global-setup.ts',
   forbidOnly: !!process.env.CI,
   retries: 2,
   workers: process.env.CI ? 1 : 1,
@@ -80,6 +94,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     headless: false,
+    storageState: "storageStates/authState.json",
   },
 
   projects: [
