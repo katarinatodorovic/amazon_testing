@@ -1,8 +1,6 @@
-import { test, expect } from '@playwright/test';
-import { AmazonHomePage } from '../pages/AmazonHomePage';
-import { ConsoleWatcher } from '../utils/ConsoleWatcher';
-import { LoggerUtility } from '../utils/LoggerUtility';
-import testData from '../test_data/data.json';
+import { test, expect } from "./fixtures/console.fixture";
+import { LoggerUtility } from "../utils/LoggerUtility";
+import testData from "../test_data/data.json";
 
 /**
  * TC007 – JavaScript console errors during search
@@ -23,31 +21,24 @@ import testData from '../test_data/data.json';
  *    - "Uncaught"
  * 6. Assert that no such error messages are present
  */
+
 test.describe("TC007, JavaScript console errors during search", () => {
-  test("TC007, No console ERROR/TypeError during search rendering", async ({ page }) => {
-    const homePage = new AmazonHomePage(page);
-    const messages: string[] = [];
+  test("TC007, No console ERROR/TypeError during search rendering", async ({ homePage, consoleMessages }) => {
     const searchTerm = testData.validProducts.coffeeMug;
-
-    await ConsoleWatcher.attach(page, messages);
-
-    await homePage.goto();
 
     await homePage.searchForItem(searchTerm);
 
-    // Filter console messages for errors of interest
-    const errorMessages = messages.filter((m) => 
-      m.toLowerCase().includes('typeerror') ||
-      m.toLowerCase().includes('referenceerror') ||
-      m.toLowerCase().includes('syntaxerror') ||
-      m.toLowerCase().includes('uncaught')
+    const errorMessages = consoleMessages.filter((m) =>
+      m.toLowerCase().includes("typeerror") ||
+      m.toLowerCase().includes("referenceerror") ||
+      m.toLowerCase().includes("syntaxerror") ||
+      m.toLowerCase().includes("uncaught")
     );
 
-    // Log any errors found
     if (errorMessages.length > 0) {
-      LoggerUtility.error(`TC007 - Console errors detected:\n${errorMessages.join('\n')}`);
+      LoggerUtility.error(`TC007 - Console errors detected:\n${errorMessages.join("\n")}`);
     }
 
-    expect(errorMessages.length, 'Console errors should not occur during search').toBe(0);
+    expect(errorMessages.length, "Console errors should not occur during search").toBe(0);
   });
 });

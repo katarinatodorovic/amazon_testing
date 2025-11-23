@@ -3,10 +3,10 @@
 // npx cross-env ENV=production LOCALE=US USE_STAGING=false npx playwright test tests/TC015_test_responsive.spec.ts --project=iPad
 // npx cross-env ENV=production LOCALE=US USE_STAGING=false npx playwright test tests/TC015_test_responsive.spec.ts --project=iPhone
 
-import { test, expect, Page } from '@playwright/test';
-import { AmazonHomePage } from '../pages/AmazonHomePage';
-import { SearchResultsPage } from '../pages/SearchResultsPage';
-import testData from '../test_data/data.json';
+import { test, expect, Page } from "@playwright/test";
+import { AmazonHomePage } from "../pages/AmazonHomePage";
+import { SearchResultsPage } from "../pages/SearchResultsPage";
+import testData from "../test_data/data.json";
 
 /**
  * TC015 – Responsive layout validation across device profiles
@@ -29,7 +29,6 @@ import testData from '../test_data/data.json';
  *    - iPhone: exactly 1 column
  */
 
-// function to run the responsive layout test
 async function runResponsiveTest(page: Page): Promise<number[]> {
   const home = new AmazonHomePage(page);
   const results = new SearchResultsPage(page);
@@ -43,15 +42,15 @@ async function runResponsiveTest(page: Page): Promise<number[]> {
   await expect(tiles.first()).toBeVisible();
 
   const numOfElementsInRow = await tiles.evaluateAll((elementsInRow) => {
-    const positions = elementsInRow.map(element =>
+    const positions = elementsInRow.map((element) =>
       Math.round(element.getBoundingClientRect().left)
     );
     return Array.from(new Set(positions));
   });
-    return numOfElementsInRow;
+  return numOfElementsInRow;
 }
 
-test('Responsive Layout', async ({ page }, testInfo) => {
+test("Responsive Layout", async ({ page }, testInfo) => {
   const device = testInfo.project.name;
 
   const shouldSkip = !["Desktop", "iPad", "iPhone"].includes(device);
@@ -61,19 +60,16 @@ test('Responsive Layout', async ({ page }, testInfo) => {
 
   const cols = await runResponsiveTest(page);
 
-  // In desktop we expect between 2 and 5 columns
   if (device === "Desktop") {
     expect(cols.length).toBeGreaterThanOrEqual(2);
     expect(cols.length).toBeLessThanOrEqual(5);
   }
 
-  // In iPad we expect between 1 and 3 columns
   if (device === "iPad") {
     expect(cols.length).toBeGreaterThanOrEqual(1);
     expect(cols.length).toBeLessThanOrEqual(3);
   }
 
-  // In iPhone we expect 1 column
   if (device === "iPhone") {
     expect(cols.length).toBe(1);
   }

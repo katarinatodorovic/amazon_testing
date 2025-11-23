@@ -30,7 +30,7 @@ export class AmazonHomePage extends BasePage {
       'input[type="search"], input[aria-label="Search Amazon"], #nav-bb-search'
     );
     this.otherBuyingOptions = this.page.locator
-    ("span.a-size-base.a-color-secondary.a-text-normal");
+    ('span[data-component-type="s-messaging-widget-results-header"] div.a-row.a-size-base span.a-size-base.a-color-secondary.a-text-normal');
     this.addressSelection = this.page.locator('button[name="glowDoneButton"]');
     this.dismissLocationModal = this.page.locator
     ('input.a-button-input[data-action-type="DISMISS"]');
@@ -113,12 +113,12 @@ async performSearch(item: string, mode: "enter" | "button" = "button"): Promise<
    */
   async getCheckOtherOptionsMessage(): Promise<string> {
     LoggerUtility.info("Checking for 'other buying option' message presence");
-    try {
+      try {
       await this.otherBuyingOptions.first().waitFor({ timeout: 5000 });
       const text = (await this.otherBuyingOptions.first().innerText()).trim();
       return text;
     } catch {
       return "";
-    }
+  }
  }
 }

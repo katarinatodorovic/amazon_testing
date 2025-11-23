@@ -107,34 +107,34 @@ export default defineConfig({
       },
     },
 
-    {
-      name: 'local',
-      use: (() => {
-        const ENV = resolveRuntimeEnv();
-        const envConf = EnvSetup[ENV];
-        const finalLocale = resolveRuntimeLocale(envConf);
-        const locale = LocaleSetup[finalLocale];
-        const baseURL = locale.productionURL; 
+//     {
+//       name: 'local',
+//       use: (() => {
+//         const ENV = resolveRuntimeEnv();
+//         const envConf = EnvSetup[ENV];
+//         const finalLocale = resolveRuntimeLocale(envConf);
+//         const locale = LocaleSetup[finalLocale];
+//         const baseURL = locale.productionURL; 
 
-  console.log(`
-┌── Runtime Config ─────────────────────────
-│ Project:     local                        
-│ Environment: ${ENV}                       
-│ Locale:      ${finalLocale}               
-│ Base URL:    ${baseURL}                   
-│ Language:    ${locale.language}           
-└───────────────────────────────────────────
-`);
+//   console.log(`
+// ┌── Runtime Config ─────────────────────────
+// │ Project:     local                        
+// │ Environment: ${ENV}                       
+// │ Locale:      ${finalLocale}               
+// │ Base URL:    ${baseURL}                   
+// │ Language:    ${locale.language}           
+// └───────────────────────────────────────────
+// `);
 
 
-        return {
-          ...devices['Desktop Chrome'],
-          baseURL,
-          locale: locale.language,
-          extraHTTPHeaders: { 'Accept-Language': locale.language }
-        };
-      })(),
-    },
+//         return {
+//           ...devices['Desktop Chrome'],
+//           baseURL,
+//           locale: locale.language,
+//           extraHTTPHeaders: { 'Accept-Language': locale.language }
+//         };
+//       })(),
+//     },
 
     {
       name: 'staging',

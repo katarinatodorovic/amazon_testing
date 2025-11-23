@@ -1,9 +1,7 @@
-import { test, expect } from '@playwright/test';
-import { AmazonHomePage } from '../pages/AmazonHomePage';
-import { SearchResultsPage } from '../pages/SearchResultsPage';
-import { ProductTile } from '../pages/ProductTile';  
-import { LoggerUtility } from '../utils/LoggerUtility';
-import testData from '../test_data/data.json';
+import { test, expect } from "./fixtures/search.fixture"
+import { ProductTile } from "../pages/ProductTile";
+import { LoggerUtility } from "../utils/LoggerUtility";
+import testData from "../test_data/data.json";
 
 /**
  * TC001 – Validate search bar with valid input
@@ -23,22 +21,16 @@ import testData from '../test_data/data.json';
  */
 
 test.describe("TC001, Validate search bar with valid input", () => {
-  test("TC001, @smoke should display correct search results", async ({ page }) => {
-
-    const homePage = new AmazonHomePage(page);
-    const resultsPage = new SearchResultsPage(page);
-
+  test("TC001, @smoke should display correct search results", async ({ searchFor, resultsPage, page }) => {
+    
     const searchTerm = testData.validProducts.aaBatteries;
 
     LoggerUtility.info(`Starting TC001, Searching for: "${searchTerm}"`);
 
-    // Navigate to Amazon homepage
-    await homePage.goto();
-    LoggerUtility.info("Amazon homepage loaded successfully.");
+    // Perform search 
+    await searchFor(searchTerm);
+    LoggerUtility.info("Amazon homepage loaded and search executed successfully.");
 
-    // Perform search
-    await homePage.searchForItem(searchTerm);
-    await resultsPage.waitForResults();
     LoggerUtility.debug(`Search executed for term: "${searchTerm}"`);
 
     // Count products
@@ -57,10 +49,11 @@ test.describe("TC001, Validate search bar with valid input", () => {
       const lower = title.toLowerCase();
       expect(lower).toContain("aa");
       expect(lower).toContain("batteries");
-      expect(title.length, `Tile ${i+1} title is empty`).toBeGreaterThan(0);
+      expect(title.length, `Tile ${i + 1} title is empty`).toBeGreaterThan(0);
 
       LoggerUtility.debug(`Product ${i + 1}: title verified.`);
     }
+
     LoggerUtility.info("All product titles, images, and prices verified for the search term.");
   });
 });

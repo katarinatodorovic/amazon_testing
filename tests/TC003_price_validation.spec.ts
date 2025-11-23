@@ -1,15 +1,11 @@
-import { test, expect } from '@playwright/test';
-import { AmazonHomePage } from '../pages/AmazonHomePage';
-import { SearchResultsPage } from '../pages/SearchResultsPage';
-import { LoggerUtility } from '../utils/LoggerUtility';
-import { PriceUtils } from '../utils/PriceUtils';
-import testData from '../test_data/data.json';
-import { ProductTile } from '../pages/ProductTile';
+import { test, expect } from "./fixtures/pages.fixture";
+import { LoggerUtility } from "../utils/LoggerUtility";
+import { PriceUtils } from "../utils/PriceUtils";
+import testData from "../test_data/data.json";
+import { ProductTile } from "../pages/ProductTile";
 
 /**
  * TC003 – Missing or malformed price handling
- *
- * This test verifies Amazon’s ability to display product price information correctly
  *
  * Steps:
  * 1. Navigate to the Amazon homepage
@@ -25,15 +21,11 @@ import { ProductTile } from '../pages/ProductTile';
  * - ≥ 70% of prices must be valid
  */
 test.describe("TC003, Missing or malformed price handling", () => {
-  test("TC003, Detect bad price formats but ignore missing prices", async ({ page }) => {
-
-    const homePage = new AmazonHomePage(page);
-    const resultsPage = new SearchResultsPage(page);
+  test("TC003, Detect bad price formats but ignore missing prices", async ({ homePage, resultsPage, page }) => {
 
     const searchTerm = testData.validProducts.toothbrush;
     LoggerUtility.startTest(`TC003 - Searching for: "${searchTerm}"`);
 
-    await homePage.goto();
     await homePage.searchForItem(searchTerm);
     await resultsPage.waitForResults();
 
@@ -43,6 +35,7 @@ test.describe("TC003, Missing or malformed price handling", () => {
     const malformed: string[] = [];
     let validCount = 0;
 
+    // Iterate through each product tile to validate prices
     for (let i = 0; i < totalTiles; i++) {
       const tile = new ProductTile(page, i).getTileCard(i);
 
@@ -71,6 +64,7 @@ test.describe("TC003, Missing or malformed price handling", () => {
 
     LoggerUtility.info(`TC003, Valid parsed prices: ${validCount}`);
 
+    // Log malformed prices if any
     if (malformed.length > 0) {
       LoggerUtility.warn(
         `TC003, Malformed price formats detected:\n${malformed.join("\n")}`
@@ -83,6 +77,7 @@ test.describe("TC003, Missing or malformed price handling", () => {
       `TC003, Relevant titles: ${validCount}/${totalTiles} (${relevance.toFixed(0)}%)`
     );
 
+    // Assert that at least 70% of the prices are valid
     expect(relevance).toBeGreaterThanOrEqual(70);
 
     LoggerUtility.endTest("TC003, Completed (missing prices allowed)");

@@ -1,9 +1,6 @@
-import { test, expect } from '@playwright/test';
-import { AmazonHomePage } from '../pages/AmazonHomePage';
-import { SearchResultsPage } from '../pages/SearchResultsPage';
-import { PerformanceUtility } from '../utils/PerformanceUtility';
-import { LoggerUtility } from '../utils/LoggerUtility';
-import testData from '../test_data/data.json';
+import { test, expect } from "./fixtures/performance.fixture";
+import { LoggerUtility } from "../utils/LoggerUtility";
+import testData from "../test_data/data.json";
 
 /**
  * TC013 – Page responsiveness / performance
@@ -24,20 +21,14 @@ import testData from '../test_data/data.json';
  */
 
 test.describe("TC013, Page responsiveness / performance", () => {
-  test("TC013, Search results should load within acceptable time", async ({ page }) => {
-    const homePage = new AmazonHomePage(page);
-    const resultsPage = new SearchResultsPage(page);
+  test("TC013, Search results should load within acceptable time", async ({ homePage, resultsPage, measureSearch }) => {
+
     const searchTerm = testData.validProducts.coffeeMug;
 
-    await homePage.goto();
-
-    const loadTimeSeconds = await PerformanceUtility.measureLoad(page, async () => {
-      await homePage.searchForItem(searchTerm);
-    });
+    const loadTimeSeconds = await measureSearch(searchTerm);
 
     LoggerUtility.info(`TC013, Measured search → results load time: ${loadTimeSeconds}s`);
 
-    // Threshold <13s
     expect(loadTimeSeconds).toBeLessThanOrEqual(13);
 
     await resultsPage.waitForResults();

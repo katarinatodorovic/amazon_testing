@@ -1,0 +1,2062 @@
+[ 22-11-2025 23:02:40 ] --------------------------------------------
+[ 22-11-2025 23:02:40 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 22-11-2025 23:02:40 ] --------------------------------------------
+[ 22-11-2025 23:02:41 ] 
+START TEST: TC001, @smoke should display correct search results
+
+[ 22-11-2025 23:02:42 ] INFO: Navigating to: /
+[ 22-11-2025 23:02:43 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:02:46 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:02:46 ] INFO: Starting TC001, Searching for: "aa batteries"
+[ 22-11-2025 23:02:46 ] INFO: Searching for item using Search button key: aa batteries
+[ 22-11-2025 23:02:46 ] INFO: Searching for item using Search button key: aa batteries
+[ 22-11-2025 23:02:54 ] INFO: Search completed using Search button for: aa batteries
+[ 22-11-2025 23:02:54 ] INFO: Waiting for search results...
+[ 22-11-2025 23:02:54 ] INFO: Waiting for DOM search results to stabilize...
+[ 22-11-2025 23:02:58 ] WARNING: No product tiles found on this page.
+[ 22-11-2025 23:02:58 ] DEBUG: Search executed for term: "aa batteries"
+[ 22-11-2025 23:02:58 ] INFO: Amazon homepage loaded and search executed successfully.
+[ 22-11-2025 23:02:58 ] INFO: Found 60 product results for "aa batteries"
+[ 22-11-2025 23:02:58 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:02:58 ] INFO: Getting product title...
+[ 22-11-2025 23:02:59 ] DEBUG: Product 1: title verified.
+[ 22-11-2025 23:02:59 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:02:59 ] DEBUG: Product title: Featured from Amazon brands 
+Amazon Basics 20-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life
+[ 22-11-2025 23:02:59 ] INFO: Getting product title...
+[ 22-11-2025 23:02:59 ] DEBUG: Product 2: title verified.
+[ 22-11-2025 23:02:59 ] DEBUG: Product title: Sponsored 
+Duracell Coppertop AA Batteries with Power Boost Ingredients, 24 Count Pack Double A Battery with Long-lasting Power, Alkaline AA Battery for Household and Office Devices
+24 Count (Pack of 1)
+[ 22-11-2025 23:02:59 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:02:59 ] INFO: Getting product title...
+[ 22-11-2025 23:02:59 ] DEBUG: Product title: Sponsored 
+Duracell Coppertop AA Alkaline Batteries with POWER BOOST Ingredients, 28 Count (Pack of 1), Long-Lasting Alkaline, Re-closable for Quick Access and Organized Storage
+[ 22-11-2025 23:02:59 ] DEBUG: Product 3: title verified.
+[ 22-11-2025 23:02:59 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:02:59 ] INFO: Getting product title...
+[ 22-11-2025 23:03:00 ] DEBUG: Product title: Sponsored 
+Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack
+[ 22-11-2025 23:03:00 ] DEBUG: Product 4: title verified.
+[ 22-11-2025 23:03:00 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:00 ] INFO: Getting product title...
+[ 22-11-2025 23:03:00 ] DEBUG: Product 5: title verified.
+[ 22-11-2025 23:03:00 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:00 ] DEBUG: Product title: Amazon Basics 20-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life
+[ 22-11-2025 23:03:00 ] INFO: Getting product title...
+[ 22-11-2025 23:03:01 ] DEBUG: Product title: Amazon Basics 100-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life
+[ 22-11-2025 23:03:01 ] DEBUG: Product 6: title verified.
+[ 22-11-2025 23:03:01 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:01 ] INFO: Getting product title...
+[ 22-11-2025 23:03:01 ] DEBUG: Product title: Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack
+[ 22-11-2025 23:03:01 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:01 ] DEBUG: Product 7: title verified.
+[ 22-11-2025 23:03:01 ] INFO: Getting product title...
+[ 22-11-2025 23:03:01 ] DEBUG: Product title: Duracell Coppertop AA Alkaline Batteries with POWER BOOST Ingredients, 28 Count (Pack of 1), Long-Lasting Alkaline, Re-closable for Quick Access and Organized Storage
+[ 22-11-2025 23:03:01 ] DEBUG: Product 8: title verified.
+[ 22-11-2025 23:03:01 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:01 ] INFO: Getting product title...
+[ 22-11-2025 23:03:02 ] DEBUG: Product 9: title verified.
+[ 22-11-2025 23:03:02 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:02 ] DEBUG: Product title: Duracell Coppertop AA Batteries with Power Boost Ingredients, 24 Count Pack Double A Battery with Long-lasting Power, Alkaline AA Battery for Household and Office Devices
+24 Count (Pack of 1)
+[ 22-11-2025 23:03:02 ] INFO: Getting product title...
+[ 22-11-2025 23:03:02 ] DEBUG: Product 10: title verified.
+[ 22-11-2025 23:03:02 ] DEBUG: Product title: Amazon Basics 36-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life
+[ 22-11-2025 23:03:02 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:02 ] INFO: Getting product title...
+[ 22-11-2025 23:03:03 ] DEBUG: Product title: Featured from Amazon brands 
+Amazon Basics 40-Pack AA Alkaline Industrial Batteries, 1.5 Volt, 5-Year Shelf Life
+[ 22-11-2025 23:03:03 ] DEBUG: Product 11: title verified.
+[ 22-11-2025 23:03:03 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:03 ] INFO: Getting product title...
+[ 22-11-2025 23:03:03 ] DEBUG: Product title: Sponsored 
+Energizer AA Batteries Alkaline Power, 20 Count Alkaline Double A Battery Pack
+[ 22-11-2025 23:03:03 ] DEBUG: Product 12: title verified.
+[ 22-11-2025 23:03:03 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:03 ] INFO: Getting product title...
+[ 22-11-2025 23:03:03 ] DEBUG: Product title: Sponsored 
+VARTA Longlife AA Batteries (100 Pack), Alkaline Double A Battery
+[ 22-11-2025 23:03:03 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:03 ] DEBUG: Product 13: title verified.
+[ 22-11-2025 23:03:03 ] INFO: Getting product title...
+[ 22-11-2025 23:03:04 ] DEBUG: Product title: Sponsored 
+Duracell Coppertop AA Batteries with Power Boost Ingredients, 20 Count Pack Double A Battery with Long-lasting Power, Alkaline AA Battery for Household and Office Devices
+20 Count (Pack of 1)
+[ 22-11-2025 23:03:04 ] DEBUG: Product 14: title verified.
+[ 22-11-2025 23:03:04 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:04 ] INFO: Getting product title...
+[ 22-11-2025 23:03:04 ] DEBUG: Product title: Powermax 24-Count Double AA Batteries, Ultra Long Lasting Alkaline Battery for Home and Office, 10-Year Shelf Life, Reclosable Packaging
+[ 22-11-2025 23:03:04 ] DEBUG: Product 15: title verified.
+[ 22-11-2025 23:03:04 ] INFO: All product titles, images, and prices verified for the search term.
+[ 22-11-2025 23:03:04 ] INFO: PASSED: TC001, @smoke should display correct search results
+[ 22-11-2025 23:03:04 ] END TEST: TC001, @smoke should display correct search results
+
+[ 22-11-2025 23:03:05 ] --------------------------------------------
+[ 22-11-2025 23:03:05 ] INFO: TEST RUN FINISHED
+[ 22-11-2025 23:03:05 ] --------------------------------------------
+[ 22-11-2025 23:03:06 ] --------------------------------------------
+[ 22-11-2025 23:03:06 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 22-11-2025 23:03:06 ] --------------------------------------------
+[ 22-11-2025 23:03:08 ] 
+START TEST: TC001, @smoke should display correct search results
+
+[ 22-11-2025 23:03:08 ] INFO: Navigating to: /
+[ 22-11-2025 23:03:10 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:03:12 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:03:13 ] INFO: Starting TC001, Searching for: "aa batteries"
+[ 22-11-2025 23:03:13 ] INFO: Searching for item using Search button key: aa batteries
+[ 22-11-2025 23:03:13 ] INFO: Searching for item using Search button key: aa batteries
+[ 22-11-2025 23:03:21 ] INFO: Search completed using Search button for: aa batteries
+[ 22-11-2025 23:03:21 ] INFO: Waiting for search results...
+[ 22-11-2025 23:03:21 ] INFO: Waiting for DOM search results to stabilize...
+[ 22-11-2025 23:03:25 ] WARNING: No product tiles found on this page.
+[ 22-11-2025 23:03:25 ] INFO: Amazon homepage loaded and search executed successfully.
+[ 22-11-2025 23:03:25 ] DEBUG: Search executed for term: "aa batteries"
+[ 22-11-2025 23:03:25 ] INFO: Found 60 product results for "aa batteries"
+[ 22-11-2025 23:03:25 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:25 ] INFO: Getting product title...
+[ 22-11-2025 23:03:26 ] DEBUG: Product 1: title verified.
+[ 22-11-2025 23:03:26 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:26 ] DEBUG: Product title: Featured from Amazon brands 
+Amazon Basics 20-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life
+[ 22-11-2025 23:03:26 ] INFO: Getting product title...
+[ 22-11-2025 23:03:26 ] DEBUG: Product 2: title verified.
+[ 22-11-2025 23:03:26 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:26 ] DEBUG: Product title: Sponsored 
+Duracell Coppertop AA Batteries with Power Boost Ingredients, 24 Count Pack Double A Battery with Long-lasting Power, Alkaline AA Battery for Household and Office Devices
+24 Count (Pack of 1)
+[ 22-11-2025 23:03:26 ] INFO: Getting product title...
+[ 22-11-2025 23:03:26 ] DEBUG: Product title: Sponsored 
+Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack
+[ 22-11-2025 23:03:26 ] DEBUG: Product 3: title verified.
+[ 22-11-2025 23:03:26 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:26 ] INFO: Getting product title...
+[ 22-11-2025 23:03:27 ] DEBUG: Product title: Sponsored 
+Duracell Coppertop AA Alkaline Batteries with POWER BOOST Ingredients, 28 Count (Pack of 1), Long-Lasting Alkaline, Re-closable for Quick Access and Organized Storage
+[ 22-11-2025 23:03:27 ] DEBUG: Product 4: title verified.
+[ 22-11-2025 23:03:27 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:27 ] INFO: Getting product title...
+[ 22-11-2025 23:03:27 ] DEBUG: Product 5: title verified.
+[ 22-11-2025 23:03:27 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:27 ] DEBUG: Product title: Amazon Basics 100-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life
+[ 22-11-2025 23:03:27 ] INFO: Getting product title...
+[ 22-11-2025 23:03:27 ] DEBUG: Product title: Amazon Basics 20-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life
+[ 22-11-2025 23:03:27 ] DEBUG: Product 6: title verified.
+[ 22-11-2025 23:03:27 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:27 ] INFO: Getting product title...
+[ 22-11-2025 23:03:28 ] DEBUG: Product title: Amazon Basics 36-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life
+[ 22-11-2025 23:03:28 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:28 ] DEBUG: Product 7: title verified.
+[ 22-11-2025 23:03:28 ] INFO: Getting product title...
+[ 22-11-2025 23:03:28 ] DEBUG: Product title: Duracell Coppertop AA Alkaline Batteries with POWER BOOST Ingredients, 28 Count (Pack of 1), Long-Lasting Alkaline, Re-closable for Quick Access and Organized Storage
+[ 22-11-2025 23:03:28 ] DEBUG: Product 8: title verified.
+[ 22-11-2025 23:03:28 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:28 ] INFO: Getting product title...
+[ 22-11-2025 23:03:29 ] DEBUG: Product 9: title verified.
+[ 22-11-2025 23:03:29 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:29 ] DEBUG: Product title: Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack
+[ 22-11-2025 23:03:29 ] INFO: Getting product title...
+[ 22-11-2025 23:03:29 ] DEBUG: Product title: Duracell Coppertop AA Batteries with Power Boost Ingredients, 24 Count Pack Double A Battery with Long-lasting Power, Alkaline AA Battery for Household and Office Devices
+24 Count (Pack of 1)
+[ 22-11-2025 23:03:29 ] DEBUG: Product 10: title verified.
+[ 22-11-2025 23:03:29 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:29 ] INFO: Getting product title...
+[ 22-11-2025 23:03:29 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:29 ] DEBUG: Product 11: title verified.
+[ 22-11-2025 23:03:29 ] DEBUG: Product title: Featured from Amazon brands 
+Amazon Basics 40-Pack AA Alkaline Industrial Batteries, 1.5 Volt, 5-Year Shelf Life
+[ 22-11-2025 23:03:29 ] INFO: Getting product title...
+[ 22-11-2025 23:03:30 ] DEBUG: Product title: Sponsored 
+Energizer AA Batteries Alkaline Power, 20 Count Alkaline Double A Battery Pack
+[ 22-11-2025 23:03:30 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:30 ] DEBUG: Product 12: title verified.
+[ 22-11-2025 23:03:30 ] INFO: Getting product title...
+[ 22-11-2025 23:03:30 ] DEBUG: Product title: Sponsored 
+VARTA Longlife AA Batteries (100 Pack), Alkaline Double A Battery
+[ 22-11-2025 23:03:30 ] DEBUG: Product 13: title verified.
+[ 22-11-2025 23:03:30 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:30 ] INFO: Getting product title...
+[ 22-11-2025 23:03:31 ] DEBUG: Product title: Sponsored 
+Duracell Coppertop AA Batteries with Power Boost Ingredients, 20 Count Pack Double A Battery with Long-lasting Power, Alkaline AA Battery for Household and Office Devices
+20 Count (Pack of 1)
+[ 22-11-2025 23:03:31 ] DEBUG: Product 14: title verified.
+[ 22-11-2025 23:03:31 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:03:31 ] INFO: Getting product title...
+[ 22-11-2025 23:03:31 ] DEBUG: Product title: Powermax 24-Count Double AA Batteries, Ultra Long Lasting Alkaline Battery for Home and Office, 10-Year Shelf Life, Reclosable Packaging
+[ 22-11-2025 23:03:31 ] DEBUG: Product 15: title verified.
+[ 22-11-2025 23:03:31 ] INFO: All product titles, images, and prices verified for the search term.
+[ 22-11-2025 23:03:31 ] INFO: PASSED: TC001, @smoke should display correct search results
+[ 22-11-2025 23:03:31 ] END TEST: TC001, @smoke should display correct search results
+
+[ 22-11-2025 23:03:32 ] --------------------------------------------
+[ 22-11-2025 23:03:32 ] --------------------------------------------
+[ 22-11-2025 23:03:32 ] INFO: TEST RUN FINISHED
+[ 22-11-2025 23:07:47 ] --------------------------------------------
+[ 22-11-2025 23:07:47 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 22-11-2025 23:07:47 ] --------------------------------------------
+[ 22-11-2025 23:07:48 ] 
+START TEST: TC001, @smoke should display correct search results
+
+[ 22-11-2025 23:07:49 ] INFO: Navigating to: /
+[ 22-11-2025 23:07:51 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:07:53 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:07:53 ] INFO: Starting TC001, Searching for: "aa batteries"
+[ 22-11-2025 23:07:53 ] INFO: Searching for item using Search button key: aa batteries
+[ 22-11-2025 23:07:53 ] INFO: Searching for item using Search button key: aa batteries
+[ 22-11-2025 23:08:02 ] INFO: Waiting for search results...
+[ 22-11-2025 23:08:02 ] INFO: Search completed using Search button for: aa batteries
+[ 22-11-2025 23:08:02 ] INFO: Waiting for DOM search results to stabilize...
+[ 22-11-2025 23:08:06 ] INFO: Amazon homepage loaded and search executed successfully.
+[ 22-11-2025 23:08:06 ] WARNING: No product tiles found on this page.
+[ 22-11-2025 23:08:06 ] DEBUG: Search executed for term: "aa batteries"
+[ 22-11-2025 23:08:06 ] INFO: Found 60 product results for "aa batteries"
+[ 22-11-2025 23:08:06 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:06 ] INFO: Getting product title...
+[ 22-11-2025 23:08:06 ] DEBUG: Product title: Featured from Amazon brands 
+Amazon Basics 20-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life
+[ 22-11-2025 23:08:06 ] DEBUG: Product 1: title verified.
+[ 22-11-2025 23:08:06 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:06 ] INFO: Getting product title...
+[ 22-11-2025 23:08:07 ] DEBUG: Product title: Sponsored 
+Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack
+[ 22-11-2025 23:08:07 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:07 ] DEBUG: Product 2: title verified.
+[ 22-11-2025 23:08:07 ] INFO: Getting product title...
+[ 22-11-2025 23:08:07 ] DEBUG: Product title: Sponsored 
+Duracell Coppertop AA Batteries with Power Boost Ingredients, 24 Count Pack Double A Battery with Long-lasting Power, Alkaline AA Battery for Household and Office Devices
+24 Count (Pack of 1)
+[ 22-11-2025 23:08:07 ] DEBUG: Product 3: title verified.
+[ 22-11-2025 23:08:07 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:07 ] INFO: Getting product title...
+[ 22-11-2025 23:08:07 ] DEBUG: Product title: Sponsored 
+Duracell Coppertop AA Alkaline Batteries with POWER BOOST Ingredients, 28 Count (Pack of 1), Long-Lasting Alkaline, Re-closable for Quick Access and Organized Storage
+[ 22-11-2025 23:08:07 ] DEBUG: Product 4: title verified.
+[ 22-11-2025 23:08:07 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:07 ] INFO: Getting product title...
+[ 22-11-2025 23:08:08 ] DEBUG: Product title: Amazon Basics 20-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life
+[ 22-11-2025 23:08:08 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:08 ] DEBUG: Product 5: title verified.
+[ 22-11-2025 23:08:08 ] INFO: Getting product title...
+[ 22-11-2025 23:08:08 ] DEBUG: Product title: Amazon Basics 100-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life
+[ 22-11-2025 23:08:08 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:08 ] DEBUG: Product 6: title verified.
+[ 22-11-2025 23:08:08 ] INFO: Getting product title...
+[ 22-11-2025 23:08:09 ] DEBUG: Product title: Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack
+[ 22-11-2025 23:08:09 ] DEBUG: Product 7: title verified.
+[ 22-11-2025 23:08:09 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:09 ] INFO: Getting product title...
+[ 22-11-2025 23:08:09 ] DEBUG: Product title: Duracell Coppertop AA Alkaline Batteries with POWER BOOST Ingredients, 28 Count (Pack of 1), Long-Lasting Alkaline, Re-closable for Quick Access and Organized Storage
+[ 22-11-2025 23:08:09 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:09 ] DEBUG: Product 8: title verified.
+[ 22-11-2025 23:08:09 ] INFO: Getting product title...
+[ 22-11-2025 23:08:09 ] DEBUG: Product title: Duracell Coppertop AA Batteries with Power Boost Ingredients, 24 Count Pack Double A Battery with Long-lasting Power, Alkaline AA Battery for Household and Office Devices
+24 Count (Pack of 1)
+[ 22-11-2025 23:08:09 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:09 ] DEBUG: Product 9: title verified.
+[ 22-11-2025 23:08:09 ] INFO: Getting product title...
+[ 22-11-2025 23:08:10 ] DEBUG: Product 10: title verified.
+[ 22-11-2025 23:08:10 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:10 ] DEBUG: Product title: Amazon Basics 36-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life
+[ 22-11-2025 23:08:10 ] INFO: Getting product title...
+[ 22-11-2025 23:08:10 ] DEBUG: Product title: Featured from Amazon brands 
+Amazon Basics 40-Pack AA Alkaline Industrial Batteries, 1.5 Volt, 5-Year Shelf Life
+[ 22-11-2025 23:08:10 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:10 ] DEBUG: Product 11: title verified.
+[ 22-11-2025 23:08:10 ] INFO: Getting product title...
+[ 22-11-2025 23:08:11 ] DEBUG: Product title: Sponsored 
+Energizer AA Batteries Alkaline Power, 20 Count Alkaline Double A Battery Pack
+[ 22-11-2025 23:08:11 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:11 ] DEBUG: Product 12: title verified.
+[ 22-11-2025 23:08:11 ] INFO: Getting product title...
+[ 22-11-2025 23:08:11 ] DEBUG: Product title: Sponsored 
+VARTA Longlife AA Batteries (100 Pack), Alkaline Double A Battery
+[ 22-11-2025 23:08:11 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:11 ] DEBUG: Product 13: title verified.
+[ 22-11-2025 23:08:11 ] INFO: Getting product title...
+[ 22-11-2025 23:08:11 ] DEBUG: Product title: Sponsored 
+Duracell Coppertop AA Batteries with Power Boost Ingredients, 20 Count Pack Double A Battery with Long-lasting Power, Alkaline AA Battery for Household and Office Devices
+20 Count (Pack of 1)
+[ 22-11-2025 23:08:11 ] DEBUG: Product 14: title verified.
+[ 22-11-2025 23:08:11 ] INFO: Waiting for product tile to become visible...
+[ 22-11-2025 23:08:12 ] INFO: Getting product title...
+[ 22-11-2025 23:08:12 ] DEBUG: Product title: Powermax 24-Count Double AA Batteries, Ultra Long Lasting Alkaline Battery for Home and Office, 10-Year Shelf Life, Reclosable Packaging
+[ 22-11-2025 23:08:12 ] INFO: All product titles, images, and prices verified for the search term.
+[ 22-11-2025 23:08:12 ] DEBUG: Product 15: title verified.
+[ 22-11-2025 23:08:12 ] INFO: PASSED: TC001, @smoke should display correct search results
+[ 22-11-2025 23:08:12 ] END TEST: TC001, @smoke should display correct search results
+
+[ 22-11-2025 23:08:13 ] --------------------------------------------
+[ 22-11-2025 23:08:13 ] INFO: TEST RUN FINISHED
+[ 22-11-2025 23:08:13 ] --------------------------------------------
+[ 22-11-2025 23:12:26 ] --------------------------------------------
+[ 22-11-2025 23:12:26 ] --------------------------------------------
+[ 22-11-2025 23:12:26 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 22-11-2025 23:12:28 ] 
+START TEST: TC002A, @smoke Empty search input should not crash 
+
+[ 22-11-2025 23:12:28 ] INFO: Navigating to: /
+[ 22-11-2025 23:12:30 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:12:32 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:12:33 ] INFO: TC002A - Starting empty search input validation
+[ 22-11-2025 23:12:33 ] INFO: Searching for item using Enter key: 
+[ 22-11-2025 23:12:33 ] INFO: Searching for item using Enter key: 
+[ 22-11-2025 23:12:41 ] INFO: Search completed using Enter key for: 
+[ 22-11-2025 23:12:41 ] INFO: TC002A - Submitted empty search input
+[ 22-11-2025 23:12:41 ] INFO: TC002A - URL after empty search: https://www.amazon.com/
+[ 22-11-2025 23:12:42 ] INFO: PASSED: TC002A, @smoke Empty search input should not crash 
+[ 22-11-2025 23:12:42 ] END TEST: TC002A, @smoke Empty search input should not crash 
+
+[ 22-11-2025 23:12:42 ] --------------------------------------------
+[ 22-11-2025 23:12:42 ] --------------------------------------------
+[ 22-11-2025 23:12:42 ] INFO: TEST RUN FINISHED
+[ 22-11-2025 23:19:26 ] --------------------------------------------
+[ 22-11-2025 23:19:26 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 22-11-2025 23:19:26 ] --------------------------------------------
+[ 22-11-2025 23:19:28 ] 
+START TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 22-11-2025 23:19:29 ] INFO: Navigating to: /
+[ 22-11-2025 23:19:30 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:19:33 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:19:33 ] --------------------------------------------
+[ 22-11-2025 23:19:33 ] INFO: Testing invalid search term: "@@##$$"
+[ 22-11-2025 23:19:33 ] --------------------------------------------
+[ 22-11-2025 23:19:33 ] INFO: Navigating to: /
+[ 22-11-2025 23:19:34 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:19:36 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:19:36 ] INFO: Performing search for invalid term: "@@##$$"
+[ 22-11-2025 23:19:36 ] INFO: Searching for item using Search button key: @@##$$
+[ 22-11-2025 23:19:36 ] INFO: Searching for item using Search button key: @@##$$
+[ 22-11-2025 23:19:45 ] INFO: Search completed using Search button for: @@##$$
+[ 22-11-2025 23:19:45 ] INFO: Checking for 'other buying option' message presence
+[ 22-11-2025 23:19:45 ] INFO: URL after search: https://www.amazon.com/s?k=%40%40%23%23%24%24&ref=nb_sb_noss
+[ 22-11-2025 23:19:45 ] INFO: Search with "@@##$$" produced a stable, safe no-results page.
+[ 22-11-2025 23:19:45 ] INFO: Testing invalid search term: "rhyjukiytrtyrty"
+[ 22-11-2025 23:19:45 ] INFO: Navigating to: /
+[ 22-11-2025 23:19:45 ] --------------------------------------------
+[ 22-11-2025 23:19:45 ] --------------------------------------------
+[ 22-11-2025 23:19:46 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:19:49 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:19:49 ] INFO: Performing search for invalid term: "rhyjukiytrtyrty"
+[ 22-11-2025 23:19:49 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 22-11-2025 23:19:49 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 22-11-2025 23:19:57 ] INFO: Search completed using Search button for: rhyjukiytrtyrty
+[ 22-11-2025 23:19:57 ] INFO: URL after search: https://www.amazon.com/s?k=rhyjukiytrtyrty&ref=nb_sb_noss
+[ 22-11-2025 23:19:57 ] INFO: Checking for 'other buying option' message presence
+[ 22-11-2025 23:20:03 ] ERROR: FAILED: TC002, @smoke Invalid search terms should not break Amazon
+[ 22-11-2025 23:20:03 ] ERROR: Error message: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"other buying option"[39m
+Received string:    [31m""[39m
+[ 22-11-2025 23:20:03 ] END TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 22-11-2025 23:20:03 ] --------------------------------------------
+[ 22-11-2025 23:20:03 ] INFO: TEST RUN FINISHED
+[ 22-11-2025 23:20:03 ] --------------------------------------------
+[ 22-11-2025 23:21:13 ] --------------------------------------------
+[ 22-11-2025 23:21:13 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 22-11-2025 23:21:13 ] --------------------------------------------
+[ 22-11-2025 23:21:14 ] 
+START TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 22-11-2025 23:21:15 ] INFO: Navigating to: /
+[ 22-11-2025 23:21:17 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:21:19 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:21:19 ] --------------------------------------------
+[ 22-11-2025 23:21:19 ] INFO: Navigating to: /
+[ 22-11-2025 23:21:19 ] INFO: Testing invalid search term: "@@##$$"
+[ 22-11-2025 23:21:19 ] --------------------------------------------
+[ 22-11-2025 23:21:21 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:21:22 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:21:22 ] INFO: Performing search for invalid term: "@@##$$"
+[ 22-11-2025 23:21:22 ] INFO: Searching for item using Search button key: @@##$$
+[ 22-11-2025 23:21:23 ] INFO: Searching for item using Search button key: @@##$$
+[ 22-11-2025 23:21:31 ] INFO: Search completed using Search button for: @@##$$
+[ 22-11-2025 23:21:31 ] INFO: URL after search: https://www.amazon.com/s?k=%40%40%23%23%24%24&ref=nb_sb_noss
+[ 22-11-2025 23:21:31 ] INFO: Checking for 'other buying option' message presence
+[ 22-11-2025 23:21:31 ] INFO: Search with "@@##$$" produced a stable, safe no-results page.
+[ 22-11-2025 23:21:31 ] --------------------------------------------
+[ 22-11-2025 23:21:31 ] INFO: Testing invalid search term: "rhyjukiytrtyrty"
+[ 22-11-2025 23:21:31 ] --------------------------------------------
+[ 22-11-2025 23:21:31 ] INFO: Navigating to: /
+[ 22-11-2025 23:21:33 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:21:34 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:21:34 ] INFO: Performing search for invalid term: "rhyjukiytrtyrty"
+[ 22-11-2025 23:21:34 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 22-11-2025 23:21:34 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 22-11-2025 23:21:43 ] INFO: Search completed using Search button for: rhyjukiytrtyrty
+[ 22-11-2025 23:21:43 ] INFO: URL after search: https://www.amazon.com/s?k=rhyjukiytrtyrty&ref=nb_sb_noss
+[ 22-11-2025 23:21:43 ] INFO: Checking for 'other buying option' message presence
+[ 22-11-2025 23:21:49 ] ERROR: FAILED: TC002, @smoke Invalid search terms should not break Amazon
+[ 22-11-2025 23:21:49 ] ERROR: Error message: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"other buying option"[39m
+Received string:    [31m""[39m
+[ 22-11-2025 23:21:49 ] END TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 22-11-2025 23:21:49 ] --------------------------------------------
+[ 22-11-2025 23:21:49 ] INFO: TEST RUN FINISHED
+[ 22-11-2025 23:21:49 ] --------------------------------------------
+[ 22-11-2025 23:38:03 ] --------------------------------------------
+[ 22-11-2025 23:38:03 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 22-11-2025 23:38:03 ] --------------------------------------------
+[ 22-11-2025 23:38:04 ] 
+START TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 22-11-2025 23:38:05 ] INFO: Navigating to: /
+[ 22-11-2025 23:38:06 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:38:08 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:38:08 ] --------------------------------------------
+[ 22-11-2025 23:38:08 ] --------------------------------------------
+[ 22-11-2025 23:38:08 ] INFO: Testing invalid search term: "@@##$$"
+[ 22-11-2025 23:38:08 ] INFO: Navigating to: /
+[ 22-11-2025 23:38:10 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:38:11 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:38:11 ] INFO: Performing search for invalid term: "@@##$$"
+[ 22-11-2025 23:38:11 ] INFO: Searching for item using Search button key: @@##$$
+[ 22-11-2025 23:38:12 ] INFO: Searching for item using Search button key: @@##$$
+[ 22-11-2025 23:38:20 ] INFO: Search completed using Search button for: @@##$$
+[ 22-11-2025 23:38:20 ] INFO: URL after search: https://www.amazon.com/s?k=%40%40%23%23%24%24&ref=nb_sb_noss
+[ 22-11-2025 23:38:20 ] INFO: Checking for 'other buying option' message presence
+[ 22-11-2025 23:38:20 ] INFO: Search with "@@##$$" produced a stable, safe no-results page.
+[ 22-11-2025 23:38:20 ] INFO: Testing invalid search term: "rhyjukiytrtyrty"
+[ 22-11-2025 23:38:20 ] --------------------------------------------
+[ 22-11-2025 23:38:20 ] --------------------------------------------
+[ 22-11-2025 23:38:20 ] INFO: Navigating to: /
+[ 22-11-2025 23:38:21 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:38:23 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:38:23 ] INFO: Performing search for invalid term: "rhyjukiytrtyrty"
+[ 22-11-2025 23:38:23 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 22-11-2025 23:38:23 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 22-11-2025 23:38:32 ] INFO: Search completed using Search button for: rhyjukiytrtyrty
+[ 22-11-2025 23:38:32 ] INFO: URL after search: https://www.amazon.com/s?k=rhyjukiytrtyrty&ref=nb_sb_noss
+[ 22-11-2025 23:38:32 ] INFO: Checking for 'other buying option' message presence
+[ 22-11-2025 23:38:38 ] ERROR: FAILED: TC002, @smoke Invalid search terms should not break Amazon
+[ 22-11-2025 23:38:38 ] ERROR: Error message: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"other buying option"[39m
+Received string:    [31m""[39m
+[ 22-11-2025 23:38:38 ] END TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 22-11-2025 23:38:38 ] --------------------------------------------
+[ 22-11-2025 23:38:38 ] --------------------------------------------
+[ 22-11-2025 23:38:38 ] INFO: TEST RUN FINISHED
+[ 22-11-2025 23:39:24 ] --------------------------------------------
+[ 22-11-2025 23:39:24 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 22-11-2025 23:39:24 ] --------------------------------------------
+[ 22-11-2025 23:39:25 ] 
+START TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 22-11-2025 23:39:26 ] INFO: Navigating to: /
+[ 22-11-2025 23:39:27 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:39:29 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:39:29 ] --------------------------------------------
+[ 22-11-2025 23:39:29 ] INFO: Navigating to: /
+[ 22-11-2025 23:39:29 ] INFO: Testing invalid search term: "@@##$$"
+[ 22-11-2025 23:39:29 ] --------------------------------------------
+[ 22-11-2025 23:39:30 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:39:32 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:39:32 ] INFO: Performing search for invalid term: "@@##$$"
+[ 22-11-2025 23:39:32 ] INFO: Searching for item using Search button key: @@##$$
+[ 22-11-2025 23:39:32 ] INFO: Searching for item using Search button key: @@##$$
+[ 22-11-2025 23:39:41 ] INFO: Search completed using Search button for: @@##$$
+[ 22-11-2025 23:39:41 ] INFO: URL after search: https://www.amazon.com/s?k=%40%40%23%23%24%24&ref=nb_sb_noss
+[ 22-11-2025 23:39:41 ] INFO: Checking for 'other buying option' message presence
+[ 22-11-2025 23:39:43 ] INFO: Search with "@@##$$" produced a stable, safe no-results page.
+[ 22-11-2025 23:39:43 ] --------------------------------------------
+[ 22-11-2025 23:39:43 ] --------------------------------------------
+[ 22-11-2025 23:39:43 ] INFO: Navigating to: /
+[ 22-11-2025 23:39:43 ] INFO: Testing invalid search term: "rhyjukiytrtyrty"
+[ 22-11-2025 23:39:44 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:39:46 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:39:46 ] INFO: Performing search for invalid term: "rhyjukiytrtyrty"
+[ 22-11-2025 23:39:46 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 22-11-2025 23:39:46 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 22-11-2025 23:39:54 ] INFO: Search completed using Search button for: rhyjukiytrtyrty
+[ 22-11-2025 23:39:54 ] INFO: URL after search: https://www.amazon.com/s?k=rhyjukiytrtyrty&ref=nb_sb_noss
+[ 22-11-2025 23:39:54 ] INFO: Checking for 'other buying option' message presence
+[ 22-11-2025 23:40:02 ] ERROR: FAILED: TC002, @smoke Invalid search terms should not break Amazon
+[ 22-11-2025 23:40:02 ] ERROR: Error message: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"other buying option"[39m
+Received string:    [31m""[39m
+[ 22-11-2025 23:40:02 ] END TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 22-11-2025 23:40:02 ] --------------------------------------------
+[ 22-11-2025 23:40:02 ] INFO: TEST RUN FINISHED
+[ 22-11-2025 23:40:02 ] --------------------------------------------
+[ 22-11-2025 23:44:28 ] --------------------------------------------
+[ 22-11-2025 23:44:28 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 22-11-2025 23:44:28 ] --------------------------------------------
+[ 22-11-2025 23:44:29 ] 
+START TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 22-11-2025 23:44:30 ] --------------------------------------------
+[ 22-11-2025 23:44:30 ] INFO: Testing invalid search term: "@@##$$"
+[ 22-11-2025 23:44:30 ] --------------------------------------------
+[ 22-11-2025 23:44:30 ] INFO: Navigating to: /
+[ 22-11-2025 23:44:31 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:44:33 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:44:33 ] INFO: Performing search for invalid term: "@@##$$"
+[ 22-11-2025 23:44:33 ] INFO: Searching for item using Search button key: @@##$$
+[ 22-11-2025 23:44:34 ] INFO: Searching for item using Search button key: @@##$$
+[ 22-11-2025 23:44:42 ] INFO: Search completed using Search button for: @@##$$
+[ 22-11-2025 23:44:42 ] INFO: URL after search: https://www.amazon.com/s?k=%40%40%23%23%24%24&ref=nb_sb_noss
+[ 22-11-2025 23:44:42 ] INFO: Checking for 'other buying option' message presence
+[ 22-11-2025 23:44:42 ] --------------------------------------------
+[ 22-11-2025 23:44:42 ] INFO: Search with "@@##$$" produced a stable, safe no-results page.
+[ 22-11-2025 23:44:42 ] --------------------------------------------
+[ 22-11-2025 23:44:42 ] INFO: Testing invalid search term: "rhyjukiytrtyrty"
+[ 22-11-2025 23:44:42 ] INFO: Navigating to: /
+[ 22-11-2025 23:44:44 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:44:46 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:44:46 ] INFO: Performing search for invalid term: "rhyjukiytrtyrty"
+[ 22-11-2025 23:44:46 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 22-11-2025 23:44:46 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 22-11-2025 23:44:55 ] INFO: URL after search: https://www.amazon.com/s?k=rhyjukiytrtyrty&ref=nb_sb_noss
+[ 22-11-2025 23:44:55 ] INFO: Search completed using Search button for: rhyjukiytrtyrty
+[ 22-11-2025 23:44:55 ] INFO: Checking for 'other buying option' message presence
+[ 22-11-2025 23:45:00 ] ERROR: FAILED: TC002, @smoke Invalid search terms should not break Amazon
+[ 22-11-2025 23:45:00 ] ERROR: Error message: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"other buying option"[39m
+Received string:    [31m""[39m
+[ 22-11-2025 23:45:00 ] END TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 22-11-2025 23:45:00 ] --------------------------------------------
+[ 22-11-2025 23:45:00 ] INFO: TEST RUN FINISHED
+[ 22-11-2025 23:45:00 ] --------------------------------------------
+[ 22-11-2025 23:50:47 ] --------------------------------------------
+[ 22-11-2025 23:50:47 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 22-11-2025 23:50:47 ] --------------------------------------------
+[ 22-11-2025 23:50:48 ] 
+START TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 22-11-2025 23:50:49 ] INFO: Navigating to: /
+[ 22-11-2025 23:50:50 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:50:52 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:50:52 ] INFO: Testing invalid search term: "@@##$$"
+[ 22-11-2025 23:50:52 ] --------------------------------------------
+[ 22-11-2025 23:50:52 ] --------------------------------------------
+[ 22-11-2025 23:50:52 ] INFO: Navigating to: /
+[ 22-11-2025 23:50:54 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:50:56 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:50:56 ] INFO: Performing search for invalid term: "@@##$$"
+[ 22-11-2025 23:50:56 ] INFO: Searching for item using Search button key: @@##$$
+[ 22-11-2025 23:50:56 ] INFO: Searching for item using Search button key: @@##$$
+[ 22-11-2025 23:51:04 ] INFO: Search completed using Search button for: @@##$$
+[ 22-11-2025 23:51:04 ] INFO: Checking for 'other buying option' message presence
+[ 22-11-2025 23:51:04 ] INFO: URL after search: https://www.amazon.com/s?k=%40%40%23%23%24%24&ref=nb_sb_noss
+[ 22-11-2025 23:51:06 ] --------------------------------------------
+[ 22-11-2025 23:51:06 ] INFO: Search with "@@##$$" produced a stable, safe no-results page.
+[ 22-11-2025 23:51:06 ] --------------------------------------------
+[ 22-11-2025 23:51:06 ] INFO: Navigating to: /
+[ 22-11-2025 23:51:06 ] INFO: Testing invalid search term: "rhyjukiytrtyrty"
+[ 22-11-2025 23:51:08 ] INFO: Applying locale cookies for US
+[ 22-11-2025 23:51:10 ] INFO: Using desktop/tablet search locator
+[ 22-11-2025 23:51:10 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 22-11-2025 23:51:10 ] INFO: Performing search for invalid term: "rhyjukiytrtyrty"
+[ 22-11-2025 23:51:10 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 22-11-2025 23:51:20 ] INFO: URL after search: https://www.amazon.com/s?k=rhyjukiytrtyrty&ref=nb_sb_noss
+[ 22-11-2025 23:51:20 ] INFO: Search completed using Search button for: rhyjukiytrtyrty
+[ 22-11-2025 23:51:20 ] INFO: Checking for 'other buying option' message presence
+[ 22-11-2025 23:51:30 ] ERROR: FAILED: TC002, @smoke Invalid search terms should not break Amazon
+[ 22-11-2025 23:51:30 ] END TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 22-11-2025 23:51:30 ] ERROR: Error message: Error: Expected fallback message not found for term: "rhyjukiytrtyrty"
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"other buying option"[39m
+Received string:    [31m""[39m
+[ 22-11-2025 23:51:31 ] --------------------------------------------
+[ 22-11-2025 23:51:31 ] INFO: TEST RUN FINISHED
+[ 22-11-2025 23:51:31 ] --------------------------------------------
+[ 23-11-2025 00:00:04 ] --------------------------------------------
+[ 23-11-2025 00:00:04 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:00:04 ] --------------------------------------------
+[ 23-11-2025 00:00:05 ] 
+START TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 23-11-2025 00:00:06 ] INFO: Navigating to: /
+[ 23-11-2025 00:00:07 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:00:09 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:00:09 ] --------------------------------------------
+[ 23-11-2025 00:00:09 ] INFO: Navigating to: /
+[ 23-11-2025 00:00:09 ] INFO: Testing invalid search term: "@@##$$"
+[ 23-11-2025 00:00:09 ] --------------------------------------------
+[ 23-11-2025 00:00:10 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:00:12 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:00:12 ] INFO: Performing search for invalid term: "@@##$$"
+[ 23-11-2025 00:00:12 ] INFO: Searching for item using Search button key: @@##$$
+[ 23-11-2025 00:00:12 ] INFO: Searching for item using Search button key: @@##$$
+[ 23-11-2025 00:00:21 ] INFO: Search completed using Search button for: @@##$$
+[ 23-11-2025 00:00:21 ] INFO: Checking for fallback message
+[ 23-11-2025 00:00:21 ] INFO: URL after search: https://www.amazon.com/s?k=%40%40%23%23%24%24&ref=nb_sb_noss
+[ 23-11-2025 00:00:21 ] INFO: Checking for 'other buying option' message presence
+[ 23-11-2025 00:00:21 ] INFO: Fallback message found: "Check each product page for other buying options."
+[ 23-11-2025 00:00:21 ] --------------------------------------------
+[ 23-11-2025 00:00:21 ] INFO: Search with "@@##$$" produced a stable, safe page.
+[ 23-11-2025 00:00:21 ] INFO: Testing invalid search term: "rhyjukiytrtyrty"
+[ 23-11-2025 00:00:21 ] --------------------------------------------
+[ 23-11-2025 00:00:21 ] INFO: Navigating to: /
+[ 23-11-2025 00:00:22 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:00:24 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:00:24 ] INFO: Performing search for invalid term: "rhyjukiytrtyrty"
+[ 23-11-2025 00:00:24 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 23-11-2025 00:00:24 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 23-11-2025 00:00:32 ] INFO: Search completed using Search button for: rhyjukiytrtyrty
+[ 23-11-2025 00:00:32 ] INFO: Checking for fallback message
+[ 23-11-2025 00:00:32 ] INFO: URL after search: https://www.amazon.com/s?k=rhyjukiytrtyrty&ref=nb_sb_noss
+[ 23-11-2025 00:00:32 ] INFO: Checking for 'other buying option' message presence
+[ 23-11-2025 00:00:37 ] INFO: Search with "rhyjukiytrtyrty" produced a stable, safe page.
+[ 23-11-2025 00:00:37 ] WARNING: No fallback message found for term "rhyjukiytrtyrty"
+[ 23-11-2025 00:00:37 ] --------------------------------------------
+[ 23-11-2025 00:00:37 ] --------------------------------------------
+[ 23-11-2025 00:00:37 ] INFO: Testing invalid search term: "1234567890"
+[ 23-11-2025 00:00:37 ] INFO: Navigating to: /
+[ 23-11-2025 00:00:39 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:00:40 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:00:40 ] INFO: Performing search for invalid term: "1234567890"
+[ 23-11-2025 00:00:40 ] INFO: Searching for item using Search button key: 1234567890
+[ 23-11-2025 00:00:40 ] INFO: Searching for item using Search button key: 1234567890
+[ 23-11-2025 00:00:49 ] INFO: URL after search: https://www.amazon.com/s?k=1234567890&ref=nb_sb_noss
+[ 23-11-2025 00:00:49 ] INFO: Search completed using Search button for: 1234567890
+[ 23-11-2025 00:00:49 ] INFO: Checking for 'other buying option' message presence
+[ 23-11-2025 00:00:49 ] INFO: Checking for fallback message
+[ 23-11-2025 00:00:49 ] INFO: Fallback message found: "Check each product page for other buying options."
+[ 23-11-2025 00:00:49 ] INFO: Search with "1234567890" produced a stable, safe page.
+[ 23-11-2025 00:00:49 ] INFO: PASSED: TC002, @smoke Invalid search terms should not break Amazon
+[ 23-11-2025 00:00:49 ] END TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 23-11-2025 00:00:50 ] --------------------------------------------
+[ 23-11-2025 00:00:50 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:00:50 ] --------------------------------------------
+[ 23-11-2025 00:10:17 ] --------------------------------------------
+[ 23-11-2025 00:10:17 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:10:17 ] --------------------------------------------
+[ 23-11-2025 00:10:18 ] 
+START TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 23-11-2025 00:10:19 ] INFO: Navigating to: /
+[ 23-11-2025 00:10:20 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:10:22 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:10:22 ] --------------------------------------------
+[ 23-11-2025 00:10:22 ] INFO: Testing invalid search term: "@@##$$"
+[ 23-11-2025 00:10:22 ] --------------------------------------------
+[ 23-11-2025 00:10:22 ] INFO: Navigating to: /
+[ 23-11-2025 00:10:24 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:10:26 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:10:26 ] INFO: Performing search for invalid term: "@@##$$"
+[ 23-11-2025 00:10:26 ] INFO: Searching for item using Search button key: @@##$$
+[ 23-11-2025 00:10:26 ] INFO: Searching for item using Search button key: @@##$$
+[ 23-11-2025 00:10:34 ] INFO: Search completed using Search button for: @@##$$
+[ 23-11-2025 00:10:34 ] INFO: URL after search: https://www.amazon.com/s?k=%40%40%23%23%24%24&ref=nb_sb_noss
+[ 23-11-2025 00:10:34 ] INFO: Checking for 'other buying option' message presence
+[ 23-11-2025 00:10:34 ] INFO: Checking for fallback message
+[ 23-11-2025 00:10:34 ] INFO: Fallback message found: "Check each product page for other buying options."
+[ 23-11-2025 00:10:34 ] INFO: Testing invalid search term: "rhyjukiytrtyrty"
+[ 23-11-2025 00:10:34 ] --------------------------------------------
+[ 23-11-2025 00:10:34 ] INFO: Search with "@@##$$" produced a stable, safe page.
+[ 23-11-2025 00:10:34 ] --------------------------------------------
+[ 23-11-2025 00:10:34 ] INFO: Navigating to: /
+[ 23-11-2025 00:10:36 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:10:38 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:10:38 ] INFO: Performing search for invalid term: "rhyjukiytrtyrty"
+[ 23-11-2025 00:10:38 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 23-11-2025 00:10:38 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 23-11-2025 00:10:46 ] INFO: Search completed using Search button for: rhyjukiytrtyrty
+[ 23-11-2025 00:10:46 ] INFO: Checking for fallback message
+[ 23-11-2025 00:10:46 ] INFO: URL after search: https://www.amazon.com/s?k=rhyjukiytrtyrty&ref=nb_sb_noss
+[ 23-11-2025 00:10:46 ] INFO: Checking for 'other buying option' message presence
+[ 23-11-2025 00:10:51 ] ERROR: No fallback message found for term "rhyjukiytrtyrty"
+[ 23-11-2025 00:10:51 ] --------------------------------------------
+[ 23-11-2025 00:10:51 ] INFO: Navigating to: /
+[ 23-11-2025 00:10:51 ] --------------------------------------------
+[ 23-11-2025 00:10:51 ] INFO: Testing invalid search term: "1234567890"
+[ 23-11-2025 00:10:52 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:10:54 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:10:54 ] INFO: Performing search for invalid term: "1234567890"
+[ 23-11-2025 00:10:54 ] INFO: Searching for item using Search button key: 1234567890
+[ 23-11-2025 00:10:54 ] INFO: Searching for item using Search button key: 1234567890
+[ 23-11-2025 00:11:03 ] INFO: Search completed using Search button for: 1234567890
+[ 23-11-2025 00:11:03 ] INFO: URL after search: https://www.amazon.com/s?k=1234567890&ref=nb_sb_noss
+[ 23-11-2025 00:11:03 ] INFO: Checking for 'other buying option' message presence
+[ 23-11-2025 00:11:03 ] INFO: Checking for fallback message
+[ 23-11-2025 00:11:03 ] INFO: Fallback message found: "Check each product page for other buying options. Price and other details may vary based on product size and color."
+[ 23-11-2025 00:11:03 ] INFO: Search with "1234567890" produced a stable, safe page.
+[ 23-11-2025 00:11:04 ] ERROR: FAILED: TC002, @smoke Invalid search terms should not break Amazon
+[ 23-11-2025 00:11:04 ] ERROR: Error message: Error: The following invalid search terms had issues:
+No fallback message found for term "rhyjukiytrtyrty"
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 3[39m
+
+[32m- Array [][39m
+[31m+ Array [[39m
+[31m+   "No fallback message found for term \"rhyjukiytrtyrty\"",[39m
+[31m+ ][39m
+[ 23-11-2025 00:11:04 ] END TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 23-11-2025 00:11:04 ] --------------------------------------------
+[ 23-11-2025 00:11:04 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:11:04 ] --------------------------------------------
+[ 23-11-2025 00:28:19 ] --------------------------------------------
+[ 23-11-2025 00:28:19 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:28:19 ] --------------------------------------------
+[ 23-11-2025 00:28:20 ] 
+START TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 23-11-2025 00:28:21 ] INFO: Navigating to: /
+[ 23-11-2025 00:28:22 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:28:25 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:28:25 ] --------------------------------------------
+[ 23-11-2025 00:28:25 ] INFO: Testing invalid search term: "@@##$$"
+[ 23-11-2025 00:28:25 ] --------------------------------------------
+[ 23-11-2025 00:28:25 ] INFO: Navigating to: /
+[ 23-11-2025 00:28:26 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:28:28 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:28:28 ] INFO: Performing search for invalid term: "@@##$$"
+[ 23-11-2025 00:28:28 ] INFO: Searching for item using Search button key: @@##$$
+[ 23-11-2025 00:28:28 ] INFO: Searching for item using Search button key: @@##$$
+[ 23-11-2025 00:28:37 ] INFO: Search completed using Search button for: @@##$$
+[ 23-11-2025 00:28:37 ] INFO: Checking fallback message for term "@@##$$"
+[ 23-11-2025 00:28:37 ] INFO: URL after search: https://www.amazon.com/s?k=%40%40%23%23%24%24&ref=nb_sb_noss
+[ 23-11-2025 00:28:37 ] INFO: Checking for 'other buying option' message presence
+[ 23-11-2025 00:28:37 ] INFO: ➡ Returned fallback message: "Check each product page for other buying options."
+[ 23-11-2025 00:28:37 ] INFO: Fallback message valid for term "@@##$$"
+[ 23-11-2025 00:28:37 ] --------------------------------------------
+[ 23-11-2025 00:28:37 ] INFO: Testing invalid search term: "rhyjukiytrtyrty"
+[ 23-11-2025 00:28:37 ] --------------------------------------------
+[ 23-11-2025 00:28:37 ] INFO: Navigating to: /
+[ 23-11-2025 00:28:38 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:28:40 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:28:40 ] INFO: Performing search for invalid term: "rhyjukiytrtyrty"
+[ 23-11-2025 00:28:40 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 23-11-2025 00:28:40 ] INFO: Searching for item using Search button key: rhyjukiytrtyrty
+[ 23-11-2025 00:28:49 ] INFO: URL after search: https://www.amazon.com/s?k=rhyjukiytrtyrty&ref=nb_sb_noss
+[ 23-11-2025 00:28:49 ] INFO: Checking fallback message for term "rhyjukiytrtyrty"
+[ 23-11-2025 00:28:49 ] INFO: Search completed using Search button for: rhyjukiytrtyrty
+[ 23-11-2025 00:28:49 ] INFO: Checking for 'other buying option' message presence
+[ 23-11-2025 00:28:54 ] INFO: ➡ Returned fallback message: "<extracted exception: TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('span[data-component-type="s-messaging-widget-results-header"] div.a-row.a-size-base span.a-size-base.a-color-secondary.a-text-normal').first() to be visible[22m
+>"
+[ 23-11-2025 00:28:54 ] ERROR: Unexpected fallback message for term "rhyjukiytrtyrty": "<extracted exception: TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('span[data-component-type="s-messaging-widget-results-header"] div.a-row.a-size-base span.a-size-base.a-color-secondary.a-text-normal').first() to be visible[22m
+>"
+[ 23-11-2025 00:28:54 ] --------------------------------------------
+[ 23-11-2025 00:28:54 ] --------------------------------------------
+[ 23-11-2025 00:28:54 ] INFO: Testing invalid search term: "1234567890"
+[ 23-11-2025 00:28:54 ] INFO: Navigating to: /
+[ 23-11-2025 00:28:55 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:28:57 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:28:57 ] INFO: Performing search for invalid term: "1234567890"
+[ 23-11-2025 00:28:57 ] INFO: Searching for item using Search button key: 1234567890
+[ 23-11-2025 00:28:57 ] INFO: Searching for item using Search button key: 1234567890
+[ 23-11-2025 00:29:07 ] INFO: Checking fallback message for term "1234567890"
+[ 23-11-2025 00:29:07 ] INFO: Search completed using Search button for: 1234567890
+[ 23-11-2025 00:29:07 ] INFO: URL after search: https://www.amazon.com/s?k=1234567890&ref=nb_sb_noss
+[ 23-11-2025 00:29:07 ] INFO: Checking for 'other buying option' message presence
+[ 23-11-2025 00:29:07 ] INFO: ➡ Returned fallback message: "Check each product page for other buying options."
+[ 23-11-2025 00:29:07 ] INFO: Fallback message valid for term "1234567890"
+[ 23-11-2025 00:29:11 ] ERROR: FAILED: TC002, @smoke Invalid search terms should not break Amazon
+[ 23-11-2025 00:29:11 ] ERROR: Error message: Error: The following invalid search terms failed:
+
+Unexpected fallback message for term "rhyjukiytrtyrty": "<extracted exception: TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('span[data-component-type="s-messaging-widget-results-header"] div.a-row.a-size-base span.a-size-base.a-color-secondary.a-text-normal').first() to be visible[22m
+>"
+
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 6[39m
+
+[32m- Array [][39m
+[31m+ Array [[39m
+[31m+   "Unexpected fallback message for term \"rhyjukiytrtyrty\": \"<extracted exception: TimeoutError: locator.waitFor: Timeout 5000ms exceeded.[39m
+[31m+ Call log:[39m
+[31m+ [2m  - waiting for locator('span[data-component-type=\"s-messaging-widget-results-header\"] div.a-row.a-size-base span.a-size-base.a-color-secondary.a-text-normal').first() to be visible[22m[39m
+[31m+ >\"",[39m
+[31m+ ][39m
+[ 23-11-2025 00:29:11 ] END TEST: TC002, @smoke Invalid search terms should not break Amazon
+
+[ 23-11-2025 00:29:11 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:29:11 ] --------------------------------------------
+[ 23-11-2025 00:29:11 ] --------------------------------------------
+[ 23-11-2025 00:36:09 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:36:09 ] --------------------------------------------
+[ 23-11-2025 00:36:09 ] --------------------------------------------
+[ 23-11-2025 00:36:10 ] 
+START TEST: TC003, Detect bad price formats but ignore missing prices
+
+[ 23-11-2025 00:36:11 ] INFO: Navigating to: /
+[ 23-11-2025 00:36:54 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:37:21 ] ERROR: TIMEOUT: TC003, Detect bad price formats but ignore missing prices
+[ 23-11-2025 00:37:21 ] END TEST: TC003, Detect bad price formats but ignore missing prices
+
+[ 23-11-2025 00:37:21 ] --------------------------------------------
+[ 23-11-2025 00:37:21 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:37:21 ] --------------------------------------------
+[ 23-11-2025 00:37:26 ] --------------------------------------------
+[ 23-11-2025 00:37:26 ] --------------------------------------------
+[ 23-11-2025 00:37:26 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:37:27 ] 
+START TEST: TC004, Compute and log average prices for pages 1-3
+
+[ 23-11-2025 00:37:28 ] INFO: Navigating to: /
+[ 23-11-2025 00:37:54 ] ERROR: FAILED: TC004, Compute and log average prices for pages 1-3
+[ 23-11-2025 00:37:54 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 00:37:54 ] END TEST: TC004, Compute and log average prices for pages 1-3
+
+[ 23-11-2025 00:37:54 ] --------------------------------------------
+[ 23-11-2025 00:37:54 ] --------------------------------------------
+[ 23-11-2025 00:37:54 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:38:01 ] --------------------------------------------
+[ 23-11-2025 00:38:01 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:38:01 ] --------------------------------------------
+[ 23-11-2025 00:38:02 ] 
+START TEST: TC004, Compute and log average prices for pages 1-3
+
+[ 23-11-2025 00:38:03 ] INFO: Navigating to: /
+[ 23-11-2025 00:38:05 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:38:08 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:38:08 ] INFO: Searching for item using Search button key: wireless mouse
+[ 23-11-2025 00:38:08 ] INFO: Searching for item using Search button key: wireless mouse
+[ 23-11-2025 00:38:17 ] INFO: Waiting for search results...
+[ 23-11-2025 00:38:17 ] INFO: Search completed using Search button for: wireless mouse
+[ 23-11-2025 00:38:17 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:38:21 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:38:21 ] --------------------------------------------
+[ 23-11-2025 00:38:21 ] STEP: Processing page 1...
+[ 23-11-2025 00:38:21 ] INFO: Scrolling until pagination bar is visible...
+[ 23-11-2025 00:38:21 ] INFO: Getting all product tiles on the page...
+[ 23-11-2025 00:38:21 ] INFO: Pagination bar is now visible, full page loaded.
+[ 23-11-2025 00:38:21 ] INFO: Found 22 tiles on page 1.
+[ 23-11-2025 00:38:21 ] INFO: Checking if price is missing: "$11.69"
+[ 23-11-2025 00:38:21 ] INFO: Checking if price is missing: "$23.74"
+[ 23-11-2025 00:38:24 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:38:24 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:38:26 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:38:26 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:38:28 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:38:28 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:38:28 ] INFO: Checking if price is missing: "$8.54"
+[ 23-11-2025 00:38:29 ] INFO: Checking if price is missing: "$10.39"
+[ 23-11-2025 00:38:29 ] INFO: Checking if price is missing: "$129.99"
+[ 23-11-2025 00:38:29 ] INFO: Checking if price is missing: "$14.85"
+[ 23-11-2025 00:38:29 ] INFO: Checking if price is missing: "$37.99"
+[ 23-11-2025 00:38:31 ] INFO: Checking if price is missing: "$7.98"
+[ 23-11-2025 00:38:33 ] INFO: Checking if price is missing: "$7.68"
+[ 23-11-2025 00:38:36 ] INFO: Checking if price is missing: "$11.69"
+[ 23-11-2025 00:38:38 ] INFO: Checking if price is missing: "$5.69"
+[ 23-11-2025 00:38:40 ] INFO: Checking if price is missing: "$29.99"
+[ 23-11-2025 00:38:42 ] INFO: Checking if price is missing: "$8.54"
+[ 23-11-2025 00:38:44 ] INFO: Checking if price is missing: "$21.89"
+[ 23-11-2025 00:38:46 ] INFO: Checking if price is missing: "$13.99"
+[ 23-11-2025 00:38:48 ] INFO: Checking if price is missing: "$10.39"
+[ 23-11-2025 00:38:50 ] INFO: Checking if price is missing: "$8.49"
+[ 23-11-2025 00:38:52 ] INFO: Checking if price is missing: "$42.99"
+[ 23-11-2025 00:38:54 ] INFO: Checking if price is missing: "$11.36"
+[ 23-11-2025 00:38:54 ] INFO: Calculating average of prices: 11.69,23.74,8.54,10.39,129.99,14.85,37.99,7.98,7.68,11.69,5.69,29.99,8.54,21.89,13.99,10.39,8.49,42.99,11.36
+[ 23-11-2025 00:38:54 ] INFO: [$$$$$$$$$] Average price for page 1: 21.99[$$$$$$$$$]
+[ 23-11-2025 00:38:54 ] INFO: Attempting to navigate to next page...
+[ 23-11-2025 00:38:54 ] INFO: Scrolling to pagination bar…
+[ 23-11-2025 00:38:56 ] INFO: Next page button found, clicking...
+[ 23-11-2025 00:38:58 ] INFO: Navigated: https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss → https://www.amazon.com/s?k=wireless+mouse&page=2&xpid=gQzKrPq7LxvOn&qid=1763854689&ref=sr_pg_1
+[ 23-11-2025 00:38:58 ] INFO: Waiting for search results...
+[ 23-11-2025 00:38:58 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:39:02 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:39:02 ] INFO: Successfully loaded next results page.
+[ 23-11-2025 00:39:02 ] --------------------------------------------
+[ 23-11-2025 00:39:02 ] INFO: Scrolling until pagination bar is visible...
+[ 23-11-2025 00:39:02 ] STEP: Processing page 2...
+[ 23-11-2025 00:39:02 ] INFO: Pagination bar is now visible, full page loaded.
+[ 23-11-2025 00:39:02 ] INFO: Getting all product tiles on the page...
+[ 23-11-2025 00:39:02 ] INFO: Found 16 tiles on page 2.
+[ 23-11-2025 00:39:02 ] INFO: Checking if price is missing: "$9.98"
+[ 23-11-2025 00:39:03 ] INFO: Checking if price is missing: "$8.99"
+[ 23-11-2025 00:39:03 ] INFO: Checking if price is missing: "$8.99"
+[ 23-11-2025 00:39:03 ] INFO: Checking if price is missing: "$9.99"
+[ 23-11-2025 00:39:03 ] INFO: Checking if price is missing: "$11.39"
+[ 23-11-2025 00:39:04 ] INFO: Checking if price is missing: "$7.68"
+[ 23-11-2025 00:39:06 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:39:06 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:39:06 ] INFO: Checking if price is missing: "$11.69"
+[ 23-11-2025 00:39:06 ] INFO: Checking if price is missing: "$99.00"
+[ 23-11-2025 00:39:09 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:39:09 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:39:09 ] INFO: Checking if price is missing: "$22.48"
+[ 23-11-2025 00:39:11 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:39:11 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:39:11 ] INFO: Checking if price is missing: "$31.99"
+[ 23-11-2025 00:39:12 ] INFO: Checking if price is missing: "$8.99"
+[ 23-11-2025 00:39:14 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:39:14 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:39:16 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:39:16 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:39:16 ] INFO: Calculating average of prices: 9.98,8.99,8.99,9.99,11.39,7.68,11.69,99,22.48,31.99,8.99
+[ 23-11-2025 00:39:16 ] INFO: Attempting to navigate to next page...
+[ 23-11-2025 00:39:16 ] INFO: [$$$$$$$$$] Average price for page 2: 21.02[$$$$$$$$$]
+[ 23-11-2025 00:39:16 ] INFO: Scrolling to pagination bar…
+[ 23-11-2025 00:39:16 ] INFO: Next page button found, clicking...
+[ 23-11-2025 00:39:17 ] INFO: Navigated: https://www.amazon.com/s?k=wireless+mouse&page=2&xpid=gQzKrPq7LxvOn&qid=1763854689&ref=sr_pg_1 → https://www.amazon.com/s?k=wireless+mouse&page=3&qid=1763854737&xpid=gQzKrPq7LxvOn&ref=sr_pg_2
+[ 23-11-2025 00:39:17 ] INFO: Waiting for search results...
+[ 23-11-2025 00:39:18 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:39:21 ] INFO: Successfully loaded next results page.
+[ 23-11-2025 00:39:21 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:39:21 ] --------------------------------------------
+[ 23-11-2025 00:39:21 ] INFO: Scrolling until pagination bar is visible...
+[ 23-11-2025 00:39:21 ] STEP: Processing page 3...
+[ 23-11-2025 00:39:21 ] INFO: Pagination bar is now visible, full page loaded.
+[ 23-11-2025 00:39:21 ] INFO: Getting all product tiles on the page...
+[ 23-11-2025 00:39:21 ] INFO: Found 22 tiles on page 3.
+[ 23-11-2025 00:39:22 ] INFO: Checking if price is missing: "$12.89"
+[ 23-11-2025 00:39:22 ] INFO: Checking if price is missing: "$7.98"
+[ 23-11-2025 00:39:22 ] INFO: Checking if price is missing: "$11.99"
+[ 23-11-2025 00:39:23 ] INFO: Checking if price is missing: "$54.00"
+[ 23-11-2025 00:39:23 ] INFO: Checking if price is missing: "$8.05"
+[ 23-11-2025 00:39:23 ] INFO: Checking if price is missing: "$10.39"
+[ 23-11-2025 00:39:23 ] INFO: Checking if price is missing: "$6.36"
+[ 23-11-2025 00:39:24 ] INFO: Checking if price is missing: "$9.11"
+[ 23-11-2025 00:39:24 ] INFO: Checking if price is missing: "$31.99"
+[ 23-11-2025 00:39:26 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:39:26 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:39:26 ] INFO: Checking if price is missing: "$21.89"
+[ 23-11-2025 00:39:26 ] INFO: Checking if price is missing: "$7.99"
+[ 23-11-2025 00:39:27 ] INFO: Checking if price is missing: "$25.49"
+[ 23-11-2025 00:39:27 ] INFO: Checking if price is missing: "$89.99"
+[ 23-11-2025 00:39:27 ] INFO: Checking if price is missing: "$74.99"
+[ 23-11-2025 00:39:29 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:39:29 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:39:30 ] INFO: Checking if price is missing: "$9.48"
+[ 23-11-2025 00:39:30 ] INFO: Checking if price is missing: "$12.59"
+[ 23-11-2025 00:39:32 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:39:32 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:39:32 ] INFO: Checking if price is missing: "$39.99"
+[ 23-11-2025 00:39:33 ] INFO: Checking if price is missing: "$36.99"
+[ 23-11-2025 00:39:33 ] INFO: Checking if price is missing: "$20.99"
+[ 23-11-2025 00:39:33 ] INFO: Calculating average of prices: 12.89,7.98,11.99,54,8.05,10.39,6.36,9.11,31.99,21.89,7.99,25.49,89.99,74.99,9.48,12.59,39.99,36.99,20.99
+[ 23-11-2025 00:39:33 ] INFO: [$$$$$$$$$] Average price for page 3: 25.96[$$$$$$$$$]
+[ 23-11-2025 00:39:33 ] INFO: PASSED: TC004, Compute and log average prices for pages 1-3
+[ 23-11-2025 00:39:33 ] END TEST: TC004, Compute and log average prices for pages 1-3
+
+[ 23-11-2025 00:39:34 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:39:34 ] --------------------------------------------
+[ 23-11-2025 00:39:34 ] --------------------------------------------
+[ 23-11-2025 00:39:35 ] --------------------------------------------
+[ 23-11-2025 00:39:35 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:39:35 ] --------------------------------------------
+[ 23-11-2025 00:39:36 ] 
+START TEST: TC004, Compute and log average prices for pages 1-3
+
+[ 23-11-2025 00:39:37 ] INFO: Navigating to: /
+[ 23-11-2025 00:39:39 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:39:41 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:39:41 ] INFO: Searching for item using Search button key: wireless mouse
+[ 23-11-2025 00:39:41 ] INFO: Searching for item using Search button key: wireless mouse
+[ 23-11-2025 00:39:50 ] INFO: Search completed using Search button for: wireless mouse
+[ 23-11-2025 00:39:50 ] INFO: Waiting for search results...
+[ 23-11-2025 00:39:50 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:39:54 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:39:54 ] --------------------------------------------
+[ 23-11-2025 00:39:54 ] STEP: Processing page 1...
+[ 23-11-2025 00:39:54 ] INFO: Scrolling until pagination bar is visible...
+[ 23-11-2025 00:39:54 ] INFO: Pagination bar is now visible, full page loaded.
+[ 23-11-2025 00:39:54 ] INFO: Getting all product tiles on the page...
+[ 23-11-2025 00:39:54 ] INFO: Found 22 tiles on page 1.
+[ 23-11-2025 00:39:54 ] INFO: Checking if price is missing: "$11.69"
+[ 23-11-2025 00:39:54 ] INFO: Checking if price is missing: "$7.98"
+[ 23-11-2025 00:39:56 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:39:56 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:39:57 ] INFO: Checking if price is missing: "$8.54"
+[ 23-11-2025 00:39:57 ] INFO: Checking if price is missing: "$37.99"
+[ 23-11-2025 00:39:57 ] INFO: Checking if price is missing: "$129.99"
+[ 23-11-2025 00:39:58 ] INFO: Checking if price is missing: "$10.39"
+[ 23-11-2025 00:39:58 ] INFO: Calculating average of prices: 11.69,7.98,8.54,37.99,129.99,10.39
+[ 23-11-2025 00:39:58 ] INFO: [$$$$$$$$$] Average price for page 1: 34.43[$$$$$$$$$]
+[ 23-11-2025 00:39:58 ] INFO: Attempting to navigate to next page...
+[ 23-11-2025 00:39:58 ] INFO: Scrolling to pagination bar…
+[ 23-11-2025 00:39:58 ] ERROR: Error message: Error: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+[ 23-11-2025 00:39:58 ] ERROR: FAILED: TC004, Compute and log average prices for pages 1-3
+[ 23-11-2025 00:39:58 ] END TEST: TC004, Compute and log average prices for pages 1-3
+
+[ 23-11-2025 00:39:58 ] --------------------------------------------
+[ 23-11-2025 00:39:58 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:39:58 ] --------------------------------------------
+[ 23-11-2025 00:40:04 ] --------------------------------------------
+[ 23-11-2025 00:40:04 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:40:04 ] --------------------------------------------
+[ 23-11-2025 00:40:05 ] 
+START TEST: TC003, Detect bad price formats but ignore missing prices
+
+[ 23-11-2025 00:40:06 ] INFO: Navigating to: /
+[ 23-11-2025 00:40:18 ] ERROR: FAILED: TC003, Detect bad price formats but ignore missing prices
+[ 23-11-2025 00:40:18 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 00:40:18 ] END TEST: TC003, Detect bad price formats but ignore missing prices
+
+[ 23-11-2025 00:40:18 ] --------------------------------------------
+[ 23-11-2025 00:40:18 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:40:18 ] --------------------------------------------
+[ 23-11-2025 00:40:20 ] --------------------------------------------
+[ 23-11-2025 00:40:20 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:40:20 ] --------------------------------------------
+[ 23-11-2025 00:40:21 ] 
+START TEST: TC003, Detect bad price formats but ignore missing prices
+
+[ 23-11-2025 00:40:22 ] INFO: Navigating to: /
+[ 23-11-2025 00:40:27 ] ERROR: FAILED: TC003, Detect bad price formats but ignore missing prices
+[ 23-11-2025 00:40:27 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 00:40:27 ] END TEST: TC003, Detect bad price formats but ignore missing prices
+
+[ 23-11-2025 00:40:27 ] --------------------------------------------
+[ 23-11-2025 00:40:27 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:40:27 ] --------------------------------------------
+[ 23-11-2025 00:40:29 ] --------------------------------------------
+[ 23-11-2025 00:40:29 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:40:29 ] --------------------------------------------
+[ 23-11-2025 00:40:30 ] 
+START TEST: TC003, Detect bad price formats but ignore missing prices
+
+[ 23-11-2025 00:40:30 ] INFO: Navigating to: /
+[ 23-11-2025 00:40:37 ] ERROR: FAILED: TC003, Detect bad price formats but ignore missing prices
+[ 23-11-2025 00:40:37 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 00:40:37 ] END TEST: TC003, Detect bad price formats but ignore missing prices
+
+[ 23-11-2025 00:40:37 ] --------------------------------------------
+[ 23-11-2025 00:40:37 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:40:37 ] --------------------------------------------
+[ 23-11-2025 00:40:39 ] --------------------------------------------
+[ 23-11-2025 00:40:39 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:40:39 ] --------------------------------------------
+[ 23-11-2025 00:40:40 ] 
+START TEST: TC003, Detect bad price formats but ignore missing prices
+
+[ 23-11-2025 00:40:41 ] INFO: Navigating to: /
+[ 23-11-2025 00:40:42 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:40:44 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:40:44 ] 
+START TEST: TC003 - Searching for: "toothbrush"
+
+[ 23-11-2025 00:40:44 ] INFO: Searching for item using Search button key: toothbrush
+[ 23-11-2025 00:40:44 ] INFO: Searching for item using Search button key: toothbrush
+[ 23-11-2025 00:40:53 ] INFO: Search completed using Search button for: toothbrush
+[ 23-11-2025 00:40:53 ] INFO: Waiting for search results...
+[ 23-11-2025 00:40:53 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:40:57 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:40:57 ] INFO: TC003 - Found 60 items.
+[ 23-11-2025 00:40:57 ] INFO: Checking if price is missing: "$4.14"
+[ 23-11-2025 00:40:57 ] INFO: Checking if price is missing: "$8.96"
+[ 23-11-2025 00:40:57 ] INFO: Checking if price is missing: "$7.99"
+[ 23-11-2025 00:40:58 ] INFO: Checking if price is missing: "$17.99"
+[ 23-11-2025 00:40:58 ] INFO: Checking if price is missing: "$59.96"
+[ 23-11-2025 00:40:58 ] INFO: Checking if price is missing: "$29.95"
+[ 23-11-2025 00:40:59 ] INFO: Checking if price is missing: "$8.96"
+[ 23-11-2025 00:40:59 ] INFO: Checking if price is missing: "$14.99"
+[ 23-11-2025 00:40:59 ] INFO: Checking if price is missing: "$4.44"
+[ 23-11-2025 00:40:59 ] INFO: Checking if price is missing: "$8.96"
+[ 23-11-2025 00:41:00 ] INFO: Checking if price is missing: "$4.95"
+[ 23-11-2025 00:41:00 ] INFO: Checking if price is missing: "$12.89"
+[ 23-11-2025 00:41:00 ] INFO: Checking if price is missing: "$50.99"
+[ 23-11-2025 00:41:01 ] INFO: Checking if price is missing: "$9.49"
+[ 23-11-2025 00:41:01 ] INFO: Checking if price is missing: "$4.96"
+[ 23-11-2025 00:41:01 ] INFO: Checking if price is missing: "$6.97"
+[ 23-11-2025 00:41:01 ] INFO: Checking if price is missing: "$29.96"
+[ 23-11-2025 00:41:02 ] INFO: Checking if price is missing: "$9.96"
+[ 23-11-2025 00:41:02 ] INFO: Checking if price is missing: "$8.99"
+[ 23-11-2025 00:41:02 ] INFO: Checking if price is missing: "$8.96"
+[ 23-11-2025 00:41:02 ] INFO: Checking if price is missing: "$42.48"
+[ 23-11-2025 00:41:03 ] INFO: Checking if price is missing: "$29.74"
+[ 23-11-2025 00:41:03 ] INFO: Checking if price is missing: "$7.96"
+[ 23-11-2025 00:41:03 ] INFO: Checking if price is missing: "$29.96"
+[ 23-11-2025 00:41:04 ] INFO: Checking if price is missing: "$8.99"
+[ 23-11-2025 00:41:04 ] INFO: Checking if price is missing: "$29.96"
+[ 23-11-2025 00:41:04 ] INFO: Checking if price is missing: "$119.99"
+[ 23-11-2025 00:41:04 ] INFO: Checking if price is missing: "$4.14"
+[ 23-11-2025 00:41:05 ] INFO: Checking if price is missing: "$9.59"
+[ 23-11-2025 00:41:05 ] INFO: Checking if price is missing: "$9.99"
+[ 23-11-2025 00:41:05 ] INFO: Checking if price is missing: "$10.89"
+[ 23-11-2025 00:41:05 ] INFO: Checking if price is missing: "$17.97"
+[ 23-11-2025 00:41:06 ] INFO: Checking if price is missing: "$13.99"
+[ 23-11-2025 00:41:06 ] INFO: Checking if price is missing: "$59.99"
+[ 23-11-2025 00:41:06 ] INFO: Checking if price is missing: "$5.99"
+[ 23-11-2025 00:41:06 ] INFO: Checking if price is missing: "$39.94"
+[ 23-11-2025 00:41:07 ] INFO: Checking if price is missing: "$15.19"
+[ 23-11-2025 00:41:07 ] INFO: Checking if price is missing: "$7.98"
+[ 23-11-2025 00:41:07 ] INFO: Checking if price is missing: "$12.99"
+[ 23-11-2025 00:41:08 ] INFO: Checking if price is missing: "$37.99"
+[ 23-11-2025 00:41:08 ] INFO: Checking if price is missing: "$119.99"
+[ 23-11-2025 00:41:08 ] INFO: Checking if price is missing: "$17.46"
+[ 23-11-2025 00:41:08 ] INFO: Checking if price is missing: "$69.99"
+[ 23-11-2025 00:41:09 ] INFO: Checking if price is missing: "$7.88"
+[ 23-11-2025 00:41:09 ] INFO: Checking if price is missing: "$8.99"
+[ 23-11-2025 00:41:09 ] INFO: Checking if price is missing: "$27.19"
+[ 23-11-2025 00:41:10 ] INFO: Checking if price is missing: "$5.20"
+[ 23-11-2025 00:41:10 ] INFO: Checking if price is missing: "$109.00"
+[ 23-11-2025 00:41:10 ] INFO: Checking if price is missing: "$13.73"
+[ 23-11-2025 00:41:10 ] INFO: Checking if price is missing: "$13.99"
+[ 23-11-2025 00:41:11 ] INFO: Checking if price is missing: "$15.12"
+[ 23-11-2025 00:41:11 ] INFO: Checking if price is missing: "$12.56"
+[ 23-11-2025 00:41:11 ] INFO: Checking if price is missing: "$149.99"
+[ 23-11-2025 00:41:13 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:41:13 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:41:13 ] INFO: Tile 54: Price missing → OK
+[ 23-11-2025 00:41:14 ] INFO: Checking if price is missing: "$249.96"
+[ 23-11-2025 00:41:14 ] INFO: Checking if price is missing: "$11.99"
+[ 23-11-2025 00:41:14 ] INFO: Checking if price is missing: "$24.78"
+[ 23-11-2025 00:41:15 ] INFO: Checking if price is missing: "$4.97"
+[ 23-11-2025 00:41:15 ] INFO: Checking if price is missing: "$9.99"
+[ 23-11-2025 00:41:15 ] INFO: Checking if price is missing: "$8.43"
+[ 23-11-2025 00:41:15 ] END TEST: TC003, Completed (missing prices allowed)
+
+[ 23-11-2025 00:41:15 ] INFO: TC003, Valid parsed prices: 59
+[ 23-11-2025 00:41:15 ] INFO: TC003, Relevant titles: 59/60 (98%)
+[ 23-11-2025 00:41:16 ] INFO: PASSED: TC003, Detect bad price formats but ignore missing prices
+[ 23-11-2025 00:41:16 ] END TEST: TC003, Detect bad price formats but ignore missing prices
+
+[ 23-11-2025 00:41:16 ] --------------------------------------------
+[ 23-11-2025 00:41:16 ] --------------------------------------------
+[ 23-11-2025 00:41:16 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:42:26 ] --------------------------------------------
+[ 23-11-2025 00:42:26 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:42:26 ] --------------------------------------------
+[ 23-11-2025 00:42:28 ] 
+START TEST: TC004, Compute and log average prices for pages 1-3
+
+[ 23-11-2025 00:42:29 ] INFO: Navigating to: /
+[ 23-11-2025 00:42:32 ] ERROR: FAILED: TC004, Compute and log average prices for pages 1-3
+[ 23-11-2025 00:42:32 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 00:42:32 ] END TEST: TC004, Compute and log average prices for pages 1-3
+
+[ 23-11-2025 00:42:32 ] --------------------------------------------
+[ 23-11-2025 00:42:32 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:42:32 ] --------------------------------------------
+[ 23-11-2025 00:42:36 ] --------------------------------------------
+[ 23-11-2025 00:42:36 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:42:36 ] --------------------------------------------
+[ 23-11-2025 00:42:37 ] 
+START TEST: TC004, Compute and log average prices for pages 1-3
+
+[ 23-11-2025 00:42:38 ] INFO: Navigating to: /
+[ 23-11-2025 00:42:40 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:42:42 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:42:42 ] INFO: Searching for item using Search button key: wireless mouse
+[ 23-11-2025 00:42:42 ] INFO: Searching for item using Search button key: wireless mouse
+[ 23-11-2025 00:42:51 ] INFO: Search completed using Search button for: wireless mouse
+[ 23-11-2025 00:42:51 ] INFO: Waiting for search results...
+[ 23-11-2025 00:42:51 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:42:55 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:42:55 ] --------------------------------------------
+[ 23-11-2025 00:42:55 ] STEP: Processing page 1...
+[ 23-11-2025 00:42:55 ] INFO: Scrolling until pagination bar is visible...
+[ 23-11-2025 00:42:55 ] INFO: Getting all product tiles on the page...
+[ 23-11-2025 00:42:55 ] INFO: Pagination bar is now visible, full page loaded.
+[ 23-11-2025 00:42:55 ] INFO: Found 16 tiles on page 1.
+[ 23-11-2025 00:42:57 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:42:57 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:42:57 ] INFO: Checking if price is missing: "$37.99"
+[ 23-11-2025 00:42:57 ] INFO: Checking if price is missing: "$8.54"
+[ 23-11-2025 00:42:58 ] INFO: Checking if price is missing: "$29.99"
+[ 23-11-2025 00:43:00 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:43:00 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:43:00 ] INFO: Checking if price is missing: "$14.85"
+[ 23-11-2025 00:43:00 ] INFO: Checking if price is missing: "$42.99"
+[ 23-11-2025 00:43:00 ] INFO: Checking if price is missing: "$7.98"
+[ 23-11-2025 00:43:01 ] INFO: Checking if price is missing: "$8.54"
+[ 23-11-2025 00:43:01 ] INFO: Checking if price is missing: "$13.99"
+[ 23-11-2025 00:43:01 ] INFO: Checking if price is missing: "$11.69"
+[ 23-11-2025 00:43:02 ] INFO: Checking if price is missing: "$5.69"
+[ 23-11-2025 00:43:02 ] INFO: Checking if price is missing: "$9.98"
+[ 23-11-2025 00:43:02 ] INFO: Checking if price is missing: "$8.49"
+[ 23-11-2025 00:43:03 ] INFO: Checking if price is missing: "$22.48"
+[ 23-11-2025 00:43:03 ] INFO: Checking if price is missing: "$10.39"
+[ 23-11-2025 00:43:03 ] INFO: [$$$$$$$$$] Average price for page 1: 16.68[$$$$$$$$$]
+[ 23-11-2025 00:43:03 ] INFO: Scrolling to pagination bar…
+[ 23-11-2025 00:43:03 ] INFO: Calculating average of prices: 37.99,8.54,29.99,14.85,42.99,7.98,8.54,13.99,11.69,5.69,9.98,8.49,22.48,10.39
+[ 23-11-2025 00:43:03 ] INFO: Attempting to navigate to next page...
+[ 23-11-2025 00:43:03 ] INFO: Next page button found, clicking...
+[ 23-11-2025 00:43:04 ] INFO: Navigated: https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss → https://www.amazon.com/s?k=wireless+mouse&page=2&xpid=FQVEeoklVoy0_&qid=1763854963&ref=sr_pg_1
+[ 23-11-2025 00:43:04 ] INFO: Waiting for search results...
+[ 23-11-2025 00:43:05 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:43:08 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:43:08 ] INFO: Successfully loaded next results page.
+[ 23-11-2025 00:43:08 ] --------------------------------------------
+[ 23-11-2025 00:43:08 ] STEP: Processing page 2...
+[ 23-11-2025 00:43:08 ] INFO: Scrolling until pagination bar is visible...
+[ 23-11-2025 00:43:08 ] INFO: Pagination bar is now visible, full page loaded.
+[ 23-11-2025 00:43:08 ] INFO: Getting all product tiles on the page...
+[ 23-11-2025 00:43:09 ] INFO: Found 22 tiles on page 2.
+[ 23-11-2025 00:43:09 ] INFO: Checking if price is missing: "$35.99"
+[ 23-11-2025 00:43:09 ] INFO: Checking if price is missing: "$15.00"
+[ 23-11-2025 00:43:09 ] INFO: Checking if price is missing: "$39.99"
+[ 23-11-2025 00:43:10 ] INFO: Checking if price is missing: "$9.99"
+[ 23-11-2025 00:43:10 ] INFO: Checking if price is missing: "$54.00"
+[ 23-11-2025 00:43:12 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:43:12 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:43:12 ] INFO: Checking if price is missing: "$31.99"
+[ 23-11-2025 00:43:15 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:43:15 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:43:15 ] INFO: Checking if price is missing: "$11.39"
+[ 23-11-2025 00:43:15 ] INFO: Checking if price is missing: "$8.99"
+[ 23-11-2025 00:43:15 ] INFO: Checking if price is missing: "$17.99"
+[ 23-11-2025 00:43:16 ] INFO: Checking if price is missing: "$14.88"
+[ 23-11-2025 00:43:16 ] INFO: Checking if price is missing: "$8.99"
+[ 23-11-2025 00:43:18 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:43:18 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:43:20 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:43:20 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:43:22 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:43:22 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:43:25 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:43:25 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:43:25 ] INFO: Checking if price is missing: "$9.11"
+[ 23-11-2025 00:43:25 ] INFO: Checking if price is missing: "$11.69"
+[ 23-11-2025 00:43:27 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:43:27 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:43:29 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:43:29 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:43:32 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:43:32 ] INFO: Calculating average of prices: 35.99,15,39.99,9.99,54,31.99,11.39,8.99,17.99,14.88,8.99,9.11,11.69
+[ 23-11-2025 00:43:32 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:43:32 ] INFO: Attempting to navigate to next page...
+[ 23-11-2025 00:43:32 ] INFO: [$$$$$$$$$] Average price for page 2: 20.77[$$$$$$$$$]
+[ 23-11-2025 00:43:32 ] INFO: Scrolling to pagination bar…
+[ 23-11-2025 00:43:32 ] INFO: Next page button found, clicking...
+[ 23-11-2025 00:43:32 ] INFO: Navigated: https://www.amazon.com/s?k=wireless+mouse&page=2&xpid=FQVEeoklVoy0_&qid=1763854963&ref=sr_pg_1 → https://www.amazon.com/s?k=wireless+mouse&page=3&qid=1763854983&xpid=FQVEeoklVoy0_&ref=sr_pg_2
+[ 23-11-2025 00:43:32 ] INFO: Waiting for search results...
+[ 23-11-2025 00:43:34 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:43:38 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:43:38 ] INFO: Successfully loaded next results page.
+[ 23-11-2025 00:43:38 ] INFO: Scrolling until pagination bar is visible...
+[ 23-11-2025 00:43:38 ] --------------------------------------------
+[ 23-11-2025 00:43:38 ] STEP: Processing page 3...
+[ 23-11-2025 00:43:38 ] INFO: Pagination bar is now visible, full page loaded.
+[ 23-11-2025 00:43:38 ] INFO: Getting all product tiles on the page...
+[ 23-11-2025 00:43:38 ] INFO: Found 22 tiles on page 3.
+[ 23-11-2025 00:43:38 ] INFO: Checking if price is missing: "$23.99"
+[ 23-11-2025 00:43:38 ] INFO: Checking if price is missing: "$36.65"
+[ 23-11-2025 00:43:39 ] INFO: Checking if price is missing: "$31.99"
+[ 23-11-2025 00:43:39 ] INFO: Checking if price is missing: "$7.68"
+[ 23-11-2025 00:43:39 ] INFO: Checking if price is missing: "$169.99"
+[ 23-11-2025 00:43:39 ] INFO: Checking if price is missing: "$69.99"
+[ 23-11-2025 00:43:40 ] INFO: Checking if price is missing: "$8.99"
+[ 23-11-2025 00:43:40 ] INFO: Checking if price is missing: "$25.49"
+[ 23-11-2025 00:43:42 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:43:42 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:43:42 ] INFO: Checking if price is missing: "$8.61"
+[ 23-11-2025 00:43:43 ] INFO: Checking if price is missing: "$8.47"
+[ 23-11-2025 00:43:43 ] INFO: Checking if price is missing: "$7.99"
+[ 23-11-2025 00:43:43 ] INFO: Checking if price is missing: "$73.99"
+[ 23-11-2025 00:43:43 ] INFO: Checking if price is missing: "$74.99"
+[ 23-11-2025 00:43:44 ] INFO: Checking if price is missing: "$19.93"
+[ 23-11-2025 00:43:44 ] INFO: Checking if price is missing: "$99.00"
+[ 23-11-2025 00:43:44 ] INFO: Checking if price is missing: "$11.99"
+[ 23-11-2025 00:43:44 ] INFO: Checking if price is missing: "$6.36"
+[ 23-11-2025 00:43:46 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:43:46 ] INFO: Checking if price is missing: ""
+[ 23-11-2025 00:43:47 ] INFO: Checking if price is missing: "$74.99"
+[ 23-11-2025 00:43:47 ] INFO: Checking if price is missing: "$24.99"
+[ 23-11-2025 00:43:47 ] INFO: Checking if price is missing: "$23.74"
+[ 23-11-2025 00:43:47 ] INFO: Calculating average of prices: 23.99,36.65,31.99,7.68,169.99,69.99,8.99,25.49,8.61,8.47,7.99,73.99,74.99,19.93,99,11.99,6.36,74.99,24.99,23.74
+[ 23-11-2025 00:43:47 ] INFO: [$$$$$$$$$] Average price for page 3: 40.49[$$$$$$$$$]
+[ 23-11-2025 00:43:48 ] INFO: PASSED: TC004, Compute and log average prices for pages 1-3
+[ 23-11-2025 00:43:48 ] END TEST: TC004, Compute and log average prices for pages 1-3
+
+[ 23-11-2025 00:43:48 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:43:48 ] --------------------------------------------
+[ 23-11-2025 00:43:48 ] --------------------------------------------
+[ 23-11-2025 00:48:06 ] --------------------------------------------
+[ 23-11-2025 00:48:06 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:48:06 ] --------------------------------------------
+[ 23-11-2025 00:48:07 ] 
+START TEST: TC005, Page 2 and 3 load new products and URL updates
+
+[ 23-11-2025 00:48:08 ] INFO: Navigating to: /
+[ 23-11-2025 00:48:10 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:48:12 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:48:12 ] INFO: Searching for item using Search button key: lego classic brick box
+[ 23-11-2025 00:48:12 ] INFO: Searching for item using Search button key: lego classic brick box
+[ 23-11-2025 00:48:20 ] INFO: Search completed using Search button for: lego classic brick box
+[ 23-11-2025 00:48:20 ] INFO: Getting top product titles...
+[ 23-11-2025 00:48:21 ] INFO: Waiting until at least 10 results are loaded...
+[ 23-11-2025 00:48:21 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:21 ] INFO: Getting product title...
+[ 23-11-2025 00:48:21 ] DEBUG: Product title: LEGO
+Classic Medium Creative Brick Box 10696 Building Toy Set - Featuring Storage, Includes Train, Car, and a Tiger Figure, and Playset for Kids, Boys, and Girls Ages 4-99
+[ 23-11-2025 00:48:21 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:21 ] INFO: Getting product title...
+[ 23-11-2025 00:48:22 ] DEBUG: Product title: Sponsored 
+100 Pieces Building Bricks, Bulk Small Bricks for Building, Compatible with Lego Parts and Pieces, Creative Building Block Friends Toys for Girls Ages 6 7 8 9 10 Year Old
+[ 23-11-2025 00:48:22 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:22 ] INFO: Getting product title...
+[ 23-11-2025 00:48:22 ] DEBUG: Product title: LEGO
+Classic Set of 2 10696 & 10700 Building Blocks Box + Green Base Plate - Creative Construction Toy for Children, Promotes Fine Motor Skills and Imagination, Ideal for Construction Projects and
+[ 23-11-2025 00:48:22 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:22 ] INFO: Getting product title...
+[ 23-11-2025 00:48:22 ] DEBUG: Product title: LEGO
+Classic Creator Fun 11011 Bricks and Animals New for 2020 (1500 pcs)
+[ 23-11-2025 00:48:22 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:22 ] INFO: Getting product title...
+[ 23-11-2025 00:48:23 ] DEBUG: Product title: LEGO
+Classic 11011 1500 pcs/Piece.
+[ 23-11-2025 00:48:23 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:23 ] INFO: Getting product title...
+[ 23-11-2025 00:48:23 ] DEBUG: Product title: LEGO
+Classic Large Creative Brick Box 10698. 3 Sets
+[ 23-11-2025 00:48:23 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:23 ] INFO: Getting product title...
+[ 23-11-2025 00:48:24 ] DEBUG: Product title: 1600 Pieces Building Bricks, Building Bulk Block with 2 Packs 24x24 Studs Sticky Plate and 46PCS Wheel Accessory - Compatible with All Major Bricks, Gfits for Kid - 18 Shape/16 Colo
+[ 23-11-2025 00:48:24 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:24 ] INFO: Getting product title...
+[ 23-11-2025 00:48:24 ] DEBUG: Product title: 1500 Pieces Classic Building Bricks Set – Bulk Basic Blocks in 12 Colors & 14 Shapes, Compatible Bulk Block, STEM Educational Toy Suitable for Boys & Girls Ages 6+, Packed in Box.
+[ 23-11-2025 00:48:24 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:24 ] INFO: Getting product title...
+[ 23-11-2025 00:48:24 ] DEBUG: Product title: LEGO
+Classic Space Mission 11022 Building Set; Includes 10 Space Toy Mini Builds in 1 Playset for Ages 5+ (1,700 Pieces)
+[ 23-11-2025 00:48:24 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:24 ] INFO: Getting product title...
+[ 23-11-2025 00:48:25 ] DEBUG: Product title: LEGO
+Classic Bricks and Houses 11008 Kids’ Building Toy Starter Set with Fun Builds to Stimulate Young Minds (270 Pieces)
+[ 23-11-2025 00:48:25 ] INFO: TC005, Page 1 URL: https://www.amazon.com/s?k=lego+classic+brick+box&ref=nb_sb_noss
+[ 23-11-2025 00:48:25 ] INFO: Attempting to navigate to next page...
+[ 23-11-2025 00:48:25 ] INFO: Scrolling to pagination bar…
+[ 23-11-2025 00:48:25 ] INFO: Next page button found, clicking...
+[ 23-11-2025 00:48:26 ] INFO: Navigated: https://www.amazon.com/s?k=lego+classic+brick+box&ref=nb_sb_noss → https://www.amazon.com/s?k=lego+classic+brick+box&page=2&xpid=7xDhPxJronnRV&qid=1763855293&ref=sr_pg_1
+[ 23-11-2025 00:48:26 ] INFO: Waiting for search results...
+[ 23-11-2025 00:48:26 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:48:30 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:48:30 ] INFO: Waiting until at least 10 results are loaded...
+[ 23-11-2025 00:48:30 ] INFO: Successfully loaded next results page.
+[ 23-11-2025 00:48:30 ] INFO: Getting top product titles...
+[ 23-11-2025 00:48:30 ] INFO: Waiting until at least 10 results are loaded...
+[ 23-11-2025 00:48:30 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:31 ] INFO: Getting product title...
+[ 23-11-2025 00:48:31 ] DEBUG: Product title: Sponsored 
+SCS Direct
+Brick Building Blocks Green Baseplates - 5"x5" (10pcs) Dual Connectivity for Stacking - Compatible & Tight fit with All Major Building Blocks Brands - Great for Activity Tables, Xmas Gift
+[ 23-11-2025 00:48:31 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:31 ] INFO: Getting product title...
+[ 23-11-2025 00:48:31 ] DEBUG: Product title: Sponsored 
+300Pcs Building Brick Bulk, Black Bulk Bricks with 5 Sizes, Compatible with Lego and Parts and Pieces, Creative Halloween Christmas Building Block Toys for Boys Girls Ages 6 7 8 9 10 Years Old
+[ 23-11-2025 00:48:31 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:31 ] INFO: Getting product title...
+[ 23-11-2025 00:48:32 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:32 ] DEBUG: Product title: Sponsored 
+500 Piece White 2x4 Bricks Bulk, Classic Building Block Flat, Compatible with Lego Parts and Pieces, MOC Building Bricks DIY Play Set for Kids Age 6+
+[ 23-11-2025 00:48:32 ] INFO: Getting product title...
+[ 23-11-2025 00:48:32 ] DEBUG: Product title: Sponsored 
+100 Piece Pink Bricks, 2x4 Building Bricks, Compatible with Lego: Pink Bricks
+[ 23-11-2025 00:48:32 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:32 ] INFO: Getting product title...
+[ 23-11-2025 00:48:32 ] DEBUG: Product title: LEGO
+10696 Medium Creative Brick Box
+[ 23-11-2025 00:48:32 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:33 ] INFO: Getting product title...
+[ 23-11-2025 00:48:33 ] DEBUG: Product title: LEGO
+Classic Bricks and Ideas 11001 Building Kit (123 Pieces)
+[ 23-11-2025 00:48:33 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:33 ] INFO: Getting product title...
+[ 23-11-2025 00:48:33 ] DEBUG: Product title: 200 Piece Classic Building Bricks, 2x4 Bulk Bricks STEM Creative Building Toys, Red, Yellow, Blue, Green(Samll Bricks, 1.25x0.62x0.47 in)
+[ 23-11-2025 00:48:33 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:33 ] INFO: Getting product title...
+[ 23-11-2025 00:48:34 ] DEBUG: Product title: LEGO
+4 Pounds Bulk Lot! Random Parts, Pieces & Bricks, 500 pcs
+[ 23-11-2025 00:48:34 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:34 ] INFO: Getting product title...
+[ 23-11-2025 00:48:34 ] DEBUG: Product title: Classic Bricks Wheels and Axles Sets, Over 400pcs Car Parts and Pieces Tires, Educational Building Kits Toys
+[ 23-11-2025 00:48:34 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:34 ] INFO: Getting product title...
+[ 23-11-2025 00:48:34 ] INFO: TC005, Page 2 URL: https://www.amazon.com/s?k=lego+classic+brick+box&page=2&xpid=7xDhPxJronnRV&qid=1763855293&ref=sr_pg_1
+[ 23-11-2025 00:48:34 ] DEBUG: Product title: Brick Loot
+1,000 Bricks Plus 70 Building Blocks Bulk Set – 1,070 Pieces with Deluxe Storage Box, Lego-Compatible Mixed Colors Classic Bricks, Creative STEM Construction Toys for Kids & Adults
+[ 23-11-2025 00:48:34 ] INFO: Attempting to navigate to next page...
+[ 23-11-2025 00:48:34 ] INFO: Scrolling to pagination bar…
+[ 23-11-2025 00:48:35 ] INFO: Next page button found, clicking...
+[ 23-11-2025 00:48:35 ] INFO: Navigated: https://www.amazon.com/s?k=lego+classic+brick+box&page=2&xpid=7xDhPxJronnRV&qid=1763855293&ref=sr_pg_1 → https://www.amazon.com/s?k=lego+classic+brick+box&page=3&qid=1763855305&xpid=7xDhPxJronnRV&ref=sr_pg_2
+[ 23-11-2025 00:48:35 ] INFO: Waiting for search results...
+[ 23-11-2025 00:48:35 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:48:39 ] INFO: Successfully loaded next results page.
+[ 23-11-2025 00:48:39 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:48:39 ] INFO: Getting top product titles...
+[ 23-11-2025 00:48:40 ] INFO: Waiting until at least 10 results are loaded...
+[ 23-11-2025 00:48:40 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:40 ] INFO: Getting product title...
+[ 23-11-2025 00:48:40 ] DEBUG: Product title: Sponsored 
+Colorful Building Block Toy Curtain Rod Pocket Children's Nursery Rainbow Contour Plastic Toy Brick Geometric Print Pattern Curtain Boys Girls Bedroom Playroom Set 2 Panels,42x45 Inches
+[ 23-11-2025 00:48:40 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:40 ] INFO: Getting product title...
+[ 23-11-2025 00:48:41 ] DEBUG: Product title: Sponsored 
+Feleph
+100pcs 2x4 Bricks Dark Green Pieces Parts Classic Building kit Creative Play Set Basic Blocks Toy Accessories Compatible with 3001 Major Brands
+[ 23-11-2025 00:48:41 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:41 ] INFO: Getting product title...
+[ 23-11-2025 00:48:41 ] DEBUG: Product title: Sponsored 
+300Pcs Building Brick Bulk, White Bulk Bricks with 5 Sizes, Compatible with Lego and Parts and Pieces, Creative Halloween Christmas Building Block Toys for Boys Girls Ages 6 7 8 9 10 Years Old
+[ 23-11-2025 00:48:41 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:41 ] INFO: Getting product title...
+[ 23-11-2025 00:48:41 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:41 ] DEBUG: Product title: Sponsored 
+15 Inch x 15 Inch Baseplate for Building Bricks -Two Pack - Green Classic Baseplates Compatible with All Major Brands
+[ 23-11-2025 00:48:41 ] INFO: Getting product title...
+[ 23-11-2025 00:48:42 ] DEBUG: Product title: MALEKO
+120 Pieces Classic Base Plates Bricks Parts, Flat Board Small Baseplates Mat Multipacks, Bulk Building Blocks
+[ 23-11-2025 00:48:42 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:42 ] INFO: Getting product title...
+[ 23-11-2025 00:48:42 ] DEBUG: Product title: LEGO Storage Brick 4 - studs Light Purple - Stackable Plastic Storage Box with Lid for Kids and Adults Ideal Desk Organizer and Toy Box - 5.6L Capacity
+[ 23-11-2025 00:48:42 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:42 ] INFO: Getting product title...
+[ 23-11-2025 00:48:42 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:42 ] DEBUG: Product title: Room Copenhagen
+Lego Storage Brick 8 Desk Drawer, 8-Stud Stackable Tabletop Storage Box, 12.4 x 6.2 x 4.4 in, White
+[ 23-11-2025 00:48:42 ] INFO: Getting product title...
+[ 23-11-2025 00:48:43 ] DEBUG: Product title: burgkidz
+Educational Toy Classic Big Size Bricks Building Blocks, Large Compatible Animal Building Bricks with Reusable Storage Bucket Gift for Boy Girl Ages 3+
+[ 23-11-2025 00:48:43 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:43 ] INFO: Getting product title...
+[ 23-11-2025 00:48:43 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:48:43 ] DEBUG: Product title: LEGO
+Classic Creative Ocean Fun 11018 Building Toy Set for Kids, Boys, and Girls Ages 4+ (333 Pieces)
+[ 23-11-2025 00:48:43 ] INFO: Getting product title...
+[ 23-11-2025 00:48:44 ] DEBUG: Product title: Lekebaby
+Classic Baseplates Building Base Plates for Building Bricks 100% Compatible with Major Brands-Baseplates 10" x 10",Age 3 and up, Pack of 6
+[ 23-11-2025 00:48:44 ] INFO: TC005, Page 3 URL: https://www.amazon.com/s?k=lego+classic+brick+box&page=3&qid=1763855305&xpid=7xDhPxJronnRV&ref=sr_pg_2
+[ 23-11-2025 00:48:44 ] INFO: PASSED: TC005, Page 2 and 3 load new products and URL updates
+[ 23-11-2025 00:48:44 ] END TEST: TC005, Page 2 and 3 load new products and URL updates
+
+[ 23-11-2025 00:48:45 ] --------------------------------------------
+[ 23-11-2025 00:48:45 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:48:45 ] --------------------------------------------
+[ 23-11-2025 00:49:20 ] --------------------------------------------
+[ 23-11-2025 00:49:20 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:49:20 ] --------------------------------------------
+[ 23-11-2025 00:49:21 ] 
+START TEST: TC006, All product images should respond with HTTPS 200
+
+[ 23-11-2025 00:49:22 ] INFO: Navigating to: /
+[ 23-11-2025 00:49:23 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:49:26 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:49:26 ] INFO: Searching for item using Search button key: coffee mug
+[ 23-11-2025 00:49:26 ] INFO: Searching for item using Search button key: coffee mug
+[ 23-11-2025 00:49:34 ] INFO: Search completed using Search button for: coffee mug
+[ 23-11-2025 00:49:34 ] INFO: Waiting for search results...
+[ 23-11-2025 00:49:34 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:49:38 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:49:38 ] INFO: Scrolling until pagination bar is visible...
+[ 23-11-2025 00:49:38 ] INFO: Pagination bar is now visible, full page loaded.
+[ 23-11-2025 00:49:38 ] INFO: Getting all product tiles on the page...
+[ 23-11-2025 00:49:38 ] INFO: TC006 - Tiles found: 60
+[ 23-11-2025 00:49:42 ] INFO: PASSED: TC006, All product images should respond with HTTPS 200
+[ 23-11-2025 00:49:42 ] END TEST: TC006, All product images should respond with HTTPS 200
+
+[ 23-11-2025 00:49:42 ] --------------------------------------------
+[ 23-11-2025 00:49:42 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:49:42 ] --------------------------------------------
+[ 23-11-2025 00:50:15 ] --------------------------------------------
+[ 23-11-2025 00:50:15 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:50:15 ] --------------------------------------------
+[ 23-11-2025 00:50:16 ] 
+START TEST: TC007, No console ERROR/TypeError during search rendering
+
+[ 23-11-2025 00:50:17 ] INFO: Navigating to: /
+[ 23-11-2025 00:51:22 ] ERROR: TIMEOUT: TC007, No console ERROR/TypeError during search rendering
+[ 23-11-2025 00:51:22 ] END TEST: TC007, No console ERROR/TypeError during search rendering
+
+[ 23-11-2025 00:51:22 ] --------------------------------------------
+[ 23-11-2025 00:51:22 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:51:22 ] --------------------------------------------
+[ 23-11-2025 00:51:43 ] --------------------------------------------
+[ 23-11-2025 00:51:43 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:51:43 ] --------------------------------------------
+[ 23-11-2025 00:51:44 ] 
+START TEST: TC007, No console ERROR/TypeError during search rendering
+
+[ 23-11-2025 00:51:45 ] INFO: Navigating to: /
+[ 23-11-2025 00:51:47 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:51:49 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:51:49 ] INFO: Searching for item using Search button key: coffee mug
+[ 23-11-2025 00:51:49 ] INFO: Searching for item using Search button key: coffee mug
+[ 23-11-2025 00:51:57 ] INFO: Search completed using Search button for: coffee mug
+[ 23-11-2025 00:51:58 ] INFO: PASSED: TC007, No console ERROR/TypeError during search rendering
+[ 23-11-2025 00:51:58 ] END TEST: TC007, No console ERROR/TypeError during search rendering
+
+[ 23-11-2025 00:51:59 ] --------------------------------------------
+[ 23-11-2025 00:51:59 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:51:59 ] --------------------------------------------
+[ 23-11-2025 00:52:23 ] --------------------------------------------
+[ 23-11-2025 00:52:23 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:52:23 ] --------------------------------------------
+[ 23-11-2025 00:52:24 ] 
+START TEST: TC008, Detect failed network requests during search
+
+[ 23-11-2025 00:52:25 ] INFO: Navigating to: /
+[ 23-11-2025 00:52:27 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:52:30 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:52:30 ] INFO: Searching for item using Search button key: lego classic brick box
+[ 23-11-2025 00:52:30 ] INFO: Searching for item using Search button key: lego classic brick box
+[ 23-11-2025 00:52:38 ] INFO: Search completed using Search button for: lego classic brick box
+[ 23-11-2025 00:52:38 ] INFO: Waiting for search results...
+[ 23-11-2025 00:52:38 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:52:42 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:52:43 ] INFO: PASSED: TC008, Detect failed network requests during search
+[ 23-11-2025 00:52:43 ] END TEST: TC008, Detect failed network requests during search
+
+[ 23-11-2025 00:52:43 ] --------------------------------------------
+[ 23-11-2025 00:52:43 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:52:43 ] --------------------------------------------
+[ 23-11-2025 00:53:36 ] --------------------------------------------
+[ 23-11-2025 00:53:36 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:53:36 ] --------------------------------------------
+[ 23-11-2025 00:53:37 ] 
+START TEST: TC009, At least 80% of top 10 results mention the search keyword
+
+[ 23-11-2025 00:53:38 ] INFO: Navigating to: /
+[ 23-11-2025 00:53:39 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:53:42 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:53:42 ] INFO: Retrieving key "wireless mouse" from JSON file: keywordVariants.json
+[ 23-11-2025 00:53:42 ] INFO: TC009 - Loaded keyword variants: ["mouse","mice","wireless mouse","wireless mice"]
+[ 23-11-2025 00:53:42 ] INFO: Loading JSON file: keywordVariants.json
+[ 23-11-2025 00:53:42 ] INFO: Searching for item using Search button key: wireless mouse
+[ 23-11-2025 00:53:42 ] INFO: Searching for item using Search button key: wireless mouse
+[ 23-11-2025 00:53:51 ] INFO: Search completed using Search button for: wireless mouse
+[ 23-11-2025 00:53:51 ] INFO: Waiting for search results...
+[ 23-11-2025 00:53:51 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:53:55 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:53:55 ] INFO: Getting top product titles...
+[ 23-11-2025 00:53:55 ] INFO: Waiting until at least 10 results are loaded...
+[ 23-11-2025 00:53:55 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:53:55 ] INFO: Getting product title...
+[ 23-11-2025 00:53:56 ] DEBUG: Product title: Featured from Amazon brands 
+Amazon Basics 2.4 Ghz Wireless Optical Computer Mouse with USB Nano Receiver, Black
+[ 23-11-2025 00:53:56 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:53:56 ] INFO: Getting product title...
+[ 23-11-2025 00:53:56 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:53:56 ] DEBUG: Product title: Sponsored 
+VssoPlor Wireless Mouse, 2.4G Slim Portable Computer Laptop Mouse with Nano Receiver Quiet Silent Optical Mice for Notebook, PC, Laptop, Computer-Black and Gold
+[ 23-11-2025 00:53:56 ] INFO: Getting product title...
+[ 23-11-2025 00:53:56 ] DEBUG: Product title: Logitech M185 Wireless Mouse, 2.4GHz with USB Mini Receiver, 12-Month Battery Life, 1000 DPI Optical Tracking, Ambidextrous PC/Mac/Laptop - Swift Grey
+[ 23-11-2025 00:53:56 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:53:56 ] INFO: Getting product title...
+[ 23-11-2025 00:53:57 ] DEBUG: Product title: TECKNET Wireless Mouse, 2.4G Ergonomic Optical Mouse, Computer Mouse for Laptop, PC, Computer, Chromebook, Notebook, 6 Buttons, 24 Months Battery Life, 2600 DPI, 5 Adjustment Levels
+[ 23-11-2025 00:53:57 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:53:57 ] INFO: Getting product title...
+[ 23-11-2025 00:53:57 ] DEBUG: Product title: Logitech M196 Bluetooth Wireless Mouse, Compact and Portable Mouse for Laptops, Tablets and More, 12-Month Battery, Smooth Tracking, Compatible with PC and Mac, Windows and macOS - Graphite
+[ 23-11-2025 00:53:57 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:53:57 ] INFO: Getting product title...
+[ 23-11-2025 00:53:58 ] DEBUG: Product title: VssoPlor Wireless Mouse, 2.4G Slim Portable Computer Laptop Mouse with Nano Receiver Quiet Silent Optical Mice for Notebook, PC, Laptop, Computer-Black and Gold
+[ 23-11-2025 00:53:58 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:53:58 ] INFO: Getting product title...
+[ 23-11-2025 00:53:58 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:53:58 ] DEBUG: Product title: Featured from Amazon brands 
+Amazon Basics Computer Mouse Wireless, Ergonomic, 2.4 GHz Optical, DPI Adjustable, Compatible With PC, Mac, Laptop, Black
+[ 23-11-2025 00:53:58 ] INFO: Getting product title...
+[ 23-11-2025 00:53:59 ] DEBUG: Product title: Wireless Bluetooth Mouse, Rechargeable, LED, Silent, Ultra-thin Design (Bluetooth 5.2 and 2.4GHz USB Receiver) | Portable Computer Mouse for Laptops, iPads, MacBooks and Apple Devices (Black)
+[ 23-11-2025 00:53:59 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:53:59 ] INFO: Getting product title...
+[ 23-11-2025 00:53:59 ] DEBUG: Product title: Razer Viper V3 Pro Wireless Esports Gaming Mouse: Symmetrical - 54g Lightweight - 8K Polling - 35K DPI Optical Sensor - Gen3 Optical Switches - 8 Programmable Buttons - 95 Hr Battery - Black
+[ 23-11-2025 00:53:59 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:53:59 ] INFO: Getting product title...
+[ 23-11-2025 00:53:59 ] DEBUG: Product title: Amazon Basics 2.4 Ghz Wireless Optical Computer Mouse with USB Nano Receiver, Black
+[ 23-11-2025 00:53:59 ] INFO: TC009, Relevant titles: 10/10 (100%)
+[ 23-11-2025 00:54:00 ] INFO: PASSED: TC009, At least 80% of top 10 results mention the search keyword
+[ 23-11-2025 00:54:00 ] END TEST: TC009, At least 80% of top 10 results mention the search keyword
+
+[ 23-11-2025 00:54:00 ] --------------------------------------------
+[ 23-11-2025 00:54:00 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:54:00 ] --------------------------------------------
+[ 23-11-2025 00:54:56 ] --------------------------------------------
+[ 23-11-2025 00:54:56 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:54:56 ] --------------------------------------------
+[ 23-11-2025 00:54:57 ] 
+START TEST: TC010, Prices show in USD for US locale / ZIP
+
+[ 23-11-2025 00:54:58 ] INFO: Navigating to: /
+[ 23-11-2025 00:55:41 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:56:08 ] ERROR: TIMEOUT: TC010, Prices show in USD for US locale / ZIP
+[ 23-11-2025 00:56:08 ] END TEST: TC010, Prices show in USD for US locale / ZIP
+
+[ 23-11-2025 00:56:08 ] --------------------------------------------
+[ 23-11-2025 00:56:08 ] --------------------------------------------
+[ 23-11-2025 00:56:08 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:56:11 ] --------------------------------------------
+[ 23-11-2025 00:56:11 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:56:11 ] --------------------------------------------
+[ 23-11-2025 00:56:12 ] 
+START TEST: TC010, Prices show in USD for US locale / ZIP
+
+[ 23-11-2025 00:56:13 ] INFO: Navigating to: /
+[ 23-11-2025 00:56:15 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:56:17 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:56:17 ] INFO: Searching for item using Search button key: wireless mouse
+[ 23-11-2025 00:56:17 ] INFO: Searching for item using Search button key: wireless mouse
+[ 23-11-2025 00:56:26 ] INFO: Search completed using Search button for: wireless mouse
+[ 23-11-2025 00:56:26 ] INFO: Waiting for search results...
+[ 23-11-2025 00:56:26 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:56:30 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:56:30 ] INFO: Getting product count from DOM...
+[ 23-11-2025 00:56:30 ] INFO: Visible product count on page: 22
+[ 23-11-2025 00:56:30 ] INFO: Extracting item info for product tile at index 0...
+[ 23-11-2025 00:56:30 ] INFO: Getting product title...
+[ 23-11-2025 00:56:30 ] DEBUG: Product title: Featured from Amazon brands 
+Amazon Basics 2.4 Ghz Wireless Optical Computer Mouse with USB Nano Receiver, Black
+[ 23-11-2025 00:56:31 ] INFO: Item #1: "Featured from Amazon brands 
+Amazon Basics 2.4 Ghz Wireless Optical Computer Mouse with USB Nano Receiver, Black" | Price: $11.69 | Image visible: true
+[ 23-11-2025 00:56:31 ] INFO: Getting product title...
+[ 23-11-2025 00:56:31 ] INFO: Extracting item info for product tile at index 1...
+[ 23-11-2025 00:56:31 ] DEBUG: Product title: Sponsored 
+VssoPlor Wireless Mouse, 2.4G Slim Portable Computer Laptop Mouse with Nano Receiver Quiet Silent Optical Mice for Notebook, PC, Laptop, Computer-Black and Gold
+[ 23-11-2025 00:56:31 ] INFO: Item #2: "Sponsored 
+VssoPlor Wireless Mouse, 2.4G Slim Portable Computer Laptop Mouse with Nano Receiver Quiet Silent Optical Mice for Notebook, PC, Laptop, Computer-Black and Gold" | Price: $7.98 | Image visible: true
+[ 23-11-2025 00:56:31 ] INFO: Extracting item info for product tile at index 2...
+[ 23-11-2025 00:56:31 ] INFO: Getting product title...
+[ 23-11-2025 00:56:32 ] DEBUG: Product title: Logitech M185 Wireless Mouse, 2.4GHz with USB Mini Receiver, 12-Month Battery Life, 1000 DPI Optical Tracking, Ambidextrous PC/Mac/Laptop - Swift Grey
+[ 23-11-2025 00:56:34 ] DEBUG: Price missing for product tile
+[ 23-11-2025 00:56:34 ] INFO: Item #3: "Logitech M185 Wireless Mouse, 2.4GHz with USB Mini Receiver, 12-Month Battery Life, 1000 DPI Optical Tracking, Ambidextrous PC/Mac/Laptop - Swift Grey" | Price:  | Image visible: true
+[ 23-11-2025 00:56:34 ] INFO: Extracting item info for product tile at index 3...
+[ 23-11-2025 00:56:34 ] INFO: Getting product title...
+[ 23-11-2025 00:56:34 ] DEBUG: Product title: TECKNET Wireless Mouse, 2.4G Ergonomic Optical Mouse, Computer Mouse for Laptop, PC, Computer, Chromebook, Notebook, 6 Buttons, 24 Months Battery Life, 2600 DPI, 5 Adjustment Levels
+[ 23-11-2025 00:56:34 ] INFO: Item #4: "TECKNET Wireless Mouse, 2.4G Ergonomic Optical Mouse, Computer Mouse for Laptop, PC, Computer, Chromebook, Notebook, 6 Buttons, 24 Months Battery Life, 2600 DPI, 5 Adjustment Levels" | Price: $8.54 | Image visible: true
+[ 23-11-2025 00:56:34 ] INFO: Getting product title...
+[ 23-11-2025 00:56:34 ] INFO: Extracting item info for product tile at index 4...
+[ 23-11-2025 00:56:35 ] DEBUG: Product title: Razer Basilisk V3 X HyperSpeed Customizable Wireless Gaming Mouse: Mechanical Switches Gen-2-5G Advanced 18K Optical Sensor - Chroma RGB 9 Programmable Controls 535 Hr Battery Classic Black
+[ 23-11-2025 00:56:35 ] INFO: Item #5: "Razer Basilisk V3 X HyperSpeed Customizable Wireless Gaming Mouse: Mechanical Switches Gen-2-5G Advanced 18K Optical Sensor - Chroma RGB 9 Programmable Controls 535 Hr Battery Classic Black" | Price: $37.99 | Image visible: true
+[ 23-11-2025 00:56:35 ] INFO: Getting product title...
+[ 23-11-2025 00:56:35 ] INFO: Extracting item info for product tile at index 5...
+[ 23-11-2025 00:56:35 ] DEBUG: Product title: Razer Orochi V2 Mobile Wireless Gaming Mouse: Ultra Lightweight - 2 Wireless Modes - Up to 950hrs Battery Life - Mechanical Mouse Switches - 5G Advanced 18K DPI Optical Sensor - Classic Black
+[ 23-11-2025 00:56:35 ] INFO: Item #6: "Razer Orochi V2 Mobile Wireless Gaming Mouse: Ultra Lightweight - 2 Wireless Modes - Up to 950hrs Battery Life - Mechanical Mouse Switches - 5G Advanced 18K DPI Optical Sensor - Classic Black" | Price: $29.99 | Image visible: true
+[ 23-11-2025 00:56:35 ] INFO: Getting product title...
+[ 23-11-2025 00:56:35 ] INFO: Extracting item info for product tile at index 6...
+[ 23-11-2025 00:56:36 ] DEBUG: Product title: Featured from Amazon brands 
+Amazon Basics Computer Mouse Wireless, Ergonomic, 2.4 GHz Optical, DPI Adjustable, Compatible With PC, Mac, Laptop, Black
+[ 23-11-2025 00:56:36 ] INFO: Item #7: "Featured from Amazon brands 
+Amazon Basics Computer Mouse Wireless, Ergonomic, 2.4 GHz Optical, DPI Adjustable, Compatible With PC, Mac, Laptop, Black" | Price: $10.39 | Image visible: true
+[ 23-11-2025 00:56:36 ] INFO: Getting product title...
+[ 23-11-2025 00:56:36 ] INFO: Extracting item info for product tile at index 7...
+[ 23-11-2025 00:56:36 ] DEBUG: Product title: Logitech M196 Bluetooth Wireless Mouse, Compact and Portable Mouse for Laptops, Tablets and More, 12-Month Battery, Smooth Tracking, Compatible with PC and Mac, Windows and macOS - Graphite
+[ 23-11-2025 00:56:37 ] INFO: Extracting item info for product tile at index 8...
+[ 23-11-2025 00:56:37 ] INFO: Item #8: "Logitech M196 Bluetooth Wireless Mouse, Compact and Portable Mouse for Laptops, Tablets and More, 12-Month Battery, Smooth Tracking, Compatible with PC and Mac, Windows and macOS - Graphite" | Price: $14.85 | Image visible: true
+[ 23-11-2025 00:56:37 ] INFO: Getting product title...
+[ 23-11-2025 00:56:37 ] DEBUG: Product title: VssoPlor Wireless Mouse, 2.4G Slim Portable Computer Laptop Mouse with Nano Receiver Quiet Silent Optical Mice for Notebook, PC, Laptop, Computer-Black and Gold
+[ 23-11-2025 00:56:37 ] INFO: Item #9: "VssoPlor Wireless Mouse, 2.4G Slim Portable Computer Laptop Mouse with Nano Receiver Quiet Silent Optical Mice for Notebook, PC, Laptop, Computer-Black and Gold" | Price: $7.98 | Image visible: true
+[ 23-11-2025 00:56:37 ] INFO: Extracting item info for product tile at index 9...
+[ 23-11-2025 00:56:37 ] INFO: Getting product title...
+[ 23-11-2025 00:56:38 ] DEBUG: Product title: Amazon Basics 2.4 Ghz Wireless Optical Computer Mouse with USB Nano Receiver, Black
+[ 23-11-2025 00:56:38 ] INFO: Extracting item info for product tile at index 10...
+[ 23-11-2025 00:56:38 ] INFO: Item #10: "Amazon Basics 2.4 Ghz Wireless Optical Computer Mouse with USB Nano Receiver, Black" | Price: $11.69 | Image visible: true
+[ 23-11-2025 00:56:38 ] INFO: Getting product title...
+[ 23-11-2025 00:56:38 ] DEBUG: Product title: TECKNET Wireless Mouse, 2.4G USB Computer Mouse with 6-Level Adjustable 4800 DPI, Silent Quiet Click，30 Months Battery, Ergonomic Grips, 6 Buttons Portable for PC, Chromebook, Mac - Grey
+[ 23-11-2025 00:56:39 ] INFO: Extracting item info for product tile at index 11...
+[ 23-11-2025 00:56:39 ] INFO: Item #11: "TECKNET Wireless Mouse, 2.4G USB Computer Mouse with 6-Level Adjustable 4800 DPI, Silent Quiet Click，30 Months Battery, Ergonomic Grips, 6 Buttons Portable for PC, Chromebook, Mac - Grey" | Price: $8.54 | Image visible: true
+[ 23-11-2025 00:56:39 ] INFO: Getting product title...
+[ 23-11-2025 00:56:39 ] DEBUG: Product title: Sponsored 
+TECKNET Wireless Mouse for Laptop, 2.4G Quiet Computer Mouse with USB Receiver, 4 Buttons Portable Cordless Mice for Chromebook, Laptop, PC, Mac, 800/1200/1600 DPI - Mint Green
+[ 23-11-2025 00:56:39 ] INFO: Extracting item info for product tile at index 12...
+[ 23-11-2025 00:56:39 ] INFO: Item #12: "Sponsored 
+TECKNET Wireless Mouse for Laptop, 2.4G Quiet Computer Mouse with USB Receiver, 4 Buttons Portable Cordless Mice for Chromebook, Laptop, PC, Mac, 800/1200/1600 DPI - Mint Green" | Price: $7.68 | Image visible: true
+[ 23-11-2025 00:56:39 ] INFO: Getting product title...
+[ 23-11-2025 00:56:39 ] DEBUG: Product title: Wireless Bluetooth Mouse, Rechargeable, LED, Silent, Ultra-thin Design (Bluetooth 5.2 and 2.4GHz USB Receiver) | Portable Computer Mouse for Laptops, iPads, MacBooks and Apple Devices (Black)
+[ 23-11-2025 00:56:40 ] INFO: Extracting item info for product tile at index 13...
+[ 23-11-2025 00:56:40 ] INFO: Item #13: "Wireless Bluetooth Mouse, Rechargeable, LED, Silent, Ultra-thin Design (Bluetooth 5.2 and 2.4GHz USB Receiver) | Portable Computer Mouse for Laptops, iPads, MacBooks and Apple Devices (Black)" | Price: $5.69 | Image visible: true
+[ 23-11-2025 00:56:40 ] INFO: Getting product title...
+[ 23-11-2025 00:56:40 ] DEBUG: Product title: TECKNET Wireless Mouse (BT5.0/3.0 & 2.4G) Rechargeable 4800 DPI Silent USB A & Bluetooth Mouse 6 Buttons, Wide Compatibility - Grey
+[ 23-11-2025 00:56:40 ] INFO: Item #14: "TECKNET Wireless Mouse (BT5.0/3.0 & 2.4G) Rechargeable 4800 DPI Silent USB A & Bluetooth Mouse 6 Buttons, Wide Compatibility - Grey" | Price: $13.99 | Image visible: true
+[ 23-11-2025 00:56:40 ] INFO: Extracting item info for product tile at index 14...
+[ 23-11-2025 00:56:40 ] INFO: Getting product title...
+[ 23-11-2025 00:56:41 ] DEBUG: Product title: Razer Viper V3 HyperSpeed Wireless Esports Gaming Mouse: 82g Lightweight - Up to 280 Hr Battery - 30K DPI Optical Sensor - Gen-2 Mechanical Switches - 8 Programmable Controls - Classic Black
+[ 23-11-2025 00:56:41 ] INFO: Extracting item info for product tile at index 15...
+[ 23-11-2025 00:56:41 ] INFO: Item #15: "Razer Viper V3 HyperSpeed Wireless Esports Gaming Mouse: 82g Lightweight - Up to 280 Hr Battery - 30K DPI Optical Sensor - Gen-2 Mechanical Switches - 8 Programmable Controls - Classic Black" | Price: $42.99 | Image visible: true
+[ 23-11-2025 00:56:41 ] INFO: Getting product title...
+[ 23-11-2025 00:56:41 ] DEBUG: Product title: Amazon Basics Computer Mouse Wireless, Ergonomic, 2.4 GHz Optical, DPI Adjustable, Compatible With PC, Mac, Laptop, Black
+[ 23-11-2025 00:56:42 ] INFO: Item #16: "Amazon Basics Computer Mouse Wireless, Ergonomic, 2.4 GHz Optical, DPI Adjustable, Compatible With PC, Mac, Laptop, Black" | Price: $10.39 | Image visible: true
+[ 23-11-2025 00:56:42 ] INFO: Getting product title...
+[ 23-11-2025 00:56:42 ] INFO: Extracting item info for product tile at index 16...
+[ 23-11-2025 00:56:42 ] DEBUG: Product title: Sponsored 
+Wireless Mouse for Computer, Ergonomic Silent Mouse with 2.4GHz & Bluetooth, Multi Device Switch, OLED Display, Adjustable DPI, Rechargeable, 9 Buttons, for Windows/Mac, Black
+[ 23-11-2025 00:56:42 ] INFO: Item #17: "Sponsored 
+Wireless Mouse for Computer, Ergonomic Silent Mouse with 2.4GHz & Bluetooth, Multi Device Switch, OLED Display, Adjustable DPI, Rechargeable, 9 Buttons, for Windows/Mac, Black" | Price: $35.99 | Image visible: true
+[ 23-11-2025 00:56:42 ] INFO: Getting product title...
+[ 23-11-2025 00:56:42 ] INFO: Extracting item info for product tile at index 17...
+[ 23-11-2025 00:56:42 ] DEBUG: Product title: WisFox 2.4G Wireless Mouse for Laptop, Ergonomic Computer Mouse with USB Receiver and 3 Adjustable Levels, 6 Button Wireless Mice for Windows Mac PC Notebook (Grey)
+[ 23-11-2025 00:56:43 ] INFO: Item #18: "WisFox 2.4G Wireless Mouse for Laptop, Ergonomic Computer Mouse with USB Receiver and 3 Adjustable Levels, 6 Button Wireless Mice for Windows Mac PC Notebook (Grey)" | Price: $8.49 | Image visible: true
+[ 23-11-2025 00:56:43 ] INFO: Getting product title...
+[ 23-11-2025 00:56:43 ] INFO: Extracting item info for product tile at index 18...
+[ 23-11-2025 00:56:43 ] DEBUG: Product title: Wireless Mouse, D-09 Computer Mouse USB Cordless Mice for Laptop, Ergo Grips, Lightspeed 5-Level 2400 DPI, 16 Months Battery, Portable for PC Mac Chromebook (Black)
+[ 23-11-2025 00:56:43 ] INFO: Item #19: "Wireless Mouse, D-09 Computer Mouse USB Cordless Mice for Laptop, Ergo Grips, Lightspeed 5-Level 2400 DPI, 16 Months Battery, Portable for PC Mac Chromebook (Black)" | Price: $8.99 | Image visible: true
+[ 23-11-2025 00:56:43 ] INFO: Extracting item info for product tile at index 19...
+[ 23-11-2025 00:56:43 ] INFO: Getting product title...
+[ 23-11-2025 00:56:44 ] DEBUG: Product title: TECKNET Wireless Mouse, 2.4G Ergonomic Optical Mouse, Computer Mouse for Laptop, PC, Computer, Chromebook, Notebook, 6 Buttons, 24 Months Battery Life, 2600 DPI, 5 Adjustment Levels, for Small Hand
+[ 23-11-2025 00:56:44 ] INFO: Item #20: "TECKNET Wireless Mouse, 2.4G Ergonomic Optical Mouse, Computer Mouse for Laptop, PC, Computer, Chromebook, Notebook, 6 Buttons, 24 Months Battery Life, 2600 DPI, 5 Adjustment Levels, for Small Hand" | Price: $9.98 | Image visible: true
+[ 23-11-2025 00:56:44 ] INFO: TC010, USD price count: 19/20
+[ 23-11-2025 00:56:44 ] INFO: PASSED: TC010, Prices show in USD for US locale / ZIP
+[ 23-11-2025 00:56:44 ] END TEST: TC010, Prices show in USD for US locale / ZIP
+
+[ 23-11-2025 00:56:45 ] --------------------------------------------
+[ 23-11-2025 00:56:45 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:56:45 ] --------------------------------------------
+[ 23-11-2025 00:57:00 ] --------------------------------------------
+[ 23-11-2025 00:57:00 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:57:00 ] --------------------------------------------
+[ 23-11-2025 00:57:01 ] 
+START TEST: TC011,  Top 5 results remain consistent across two runs
+
+[ 23-11-2025 00:57:02 ] INFO: Navigating to: /
+[ 23-11-2025 00:57:03 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:57:06 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:57:06 ] INFO: Searching for item using Search button key: coffee mug
+[ 23-11-2025 00:57:06 ] INFO: Searching for item using Search button key: coffee mug
+[ 23-11-2025 00:57:14 ] INFO: Search completed using Search button for: coffee mug
+[ 23-11-2025 00:57:14 ] INFO: Waiting for search results...
+[ 23-11-2025 00:57:14 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:57:18 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:57:18 ] INFO: Getting top product titles...
+[ 23-11-2025 00:57:19 ] INFO: Waiting until at least 5 results are loaded...
+[ 23-11-2025 00:57:19 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:57:19 ] INFO: Getting product title...
+[ 23-11-2025 00:57:19 ] DEBUG: Product title: Featured from Amazon brands 
+Amazon Basics Porcelain, 12 oz Coffee Mug Set, 12 Count, White
+Porcelain
+[ 23-11-2025 00:57:19 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:57:19 ] INFO: Getting product title...
+[ 23-11-2025 00:57:19 ] DEBUG: Product title: Sponsored 
+20oz Tumbler Bulk Stainless Steel Tumblers with Lid Vacuum Insulated Double Wall Travel Coffee Mug Powder Coated Tumbler Cup for Hot and Cold Drinks(Navy Blue, 6 pack)
+Stainless Steel
+[ 23-11-2025 00:57:19 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:57:19 ] INFO: Getting product title...
+[ 23-11-2025 00:57:20 ] DEBUG: Product title: Sponsored 
+Volhoply 12oz Insulated Leakproof Coffee Mug with Flip & Straw Lid Bulk 8 Pack,Not Suitable for Sublimation,Double Wall Vacuum Stainless Steel Travel Tumbler Cup with Handle(White,8 Set)
+Stainless Steel
+[ 23-11-2025 00:57:20 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:57:20 ] INFO: Getting product title...
+[ 23-11-2025 00:57:20 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:57:20 ] DEBUG: Product title: Sponsored 
+Rechargeable Self Heating Coffee Mug, Fast Heating & High Temperature, 14 Oz App-Controlled Heated Coffee Mug, 1F Precise Temperature Control Smart Mug Warmer for 150 Min Use
+[ 23-11-2025 00:57:20 ] INFO: Getting product title...
+[ 23-11-2025 00:57:21 ] DEBUG: Product title: Ember Temperature Control Smart Mug 2, 10 Oz, App-Controlled Heated Coffee Mug with 80 Min Battery Life and Improved Design, Black
+Stainless Steel
+[ 23-11-2025 00:57:21 ] INFO: Navigating to: /
+[ 23-11-2025 00:57:22 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:57:24 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:57:24 ] INFO: Searching for item using Search button key: coffee mug
+[ 23-11-2025 00:57:24 ] INFO: Searching for item using Search button key: coffee mug
+[ 23-11-2025 00:57:32 ] INFO: Search completed using Search button for: coffee mug
+[ 23-11-2025 00:57:32 ] INFO: Waiting for search results...
+[ 23-11-2025 00:57:32 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:57:36 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:57:36 ] INFO: Getting top product titles...
+[ 23-11-2025 00:57:37 ] INFO: Waiting until at least 5 results are loaded...
+[ 23-11-2025 00:57:37 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:57:37 ] INFO: Getting product title...
+[ 23-11-2025 00:57:37 ] DEBUG: Product title: Featured from Amazon brands 
+Amazon Basics Porcelain, 12 oz Coffee Mug Set, 12 Count, White
+Porcelain
+[ 23-11-2025 00:57:37 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:57:37 ] INFO: Getting product title...
+[ 23-11-2025 00:57:38 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:57:38 ] DEBUG: Product title: Sponsored 
+20oz Tumbler Bulk Stainless Steel Tumblers with Lid Vacuum Insulated Double Wall Travel Coffee Mug Powder Coated Tumbler Cup for Hot and Cold Drinks(Navy Blue, 6 pack)
+Stainless Steel
+[ 23-11-2025 00:57:38 ] INFO: Getting product title...
+[ 23-11-2025 00:57:38 ] DEBUG: Product title: Sponsored 
+Volhoply 12oz Insulated Leakproof Coffee Mug with Flip & Straw Lid Bulk 8 Pack,Not Suitable for Sublimation,Double Wall Vacuum Stainless Steel Travel Tumbler Cup with Handle(White,8 Set)
+Stainless Steel
+[ 23-11-2025 00:57:38 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:57:38 ] INFO: Getting product title...
+[ 23-11-2025 00:57:38 ] DEBUG: Product title: Sponsored 
+Sweese Porcelain Coffee Mugs - 16 Ounce - Set of 6, Cups for Latte, Hot Tea, Cappuccino, Mocha, Cocoa, White
+Porcelain
+[ 23-11-2025 00:57:38 ] INFO: Waiting for product tile to become visible...
+[ 23-11-2025 00:57:38 ] INFO: Getting product title...
+[ 23-11-2025 00:57:39 ] INFO: TC011, Second run titles: ["Featured from Amazon brands \nAmazon Basics Porcelain, 12 oz Coffee Mug Set, 12 Count, White\nPorcelain","Sponsored \n20oz Tumbler Bulk Stainless Steel Tumblers with Lid Vacuum Insulated Double Wall Travel Coffee Mug Powder Coated Tumbler Cup for Hot and Cold Drinks(Navy Blue, 6 pack)\nStainless Steel","Sponsored \nVolhoply 12oz Insulated Leakproof Coffee Mug with Flip & Straw Lid Bulk 8 Pack,Not Suitable for Sublimation,Double Wall Vacuum Stainless Steel Travel Tumbler Cup with Handle(White,8 Set)\nStainless Steel","Sponsored \nSweese Porcelain Coffee Mugs - 16 Ounce - Set of 6, Cups for Latte, Hot Tea, Cappuccino, Mocha, Cocoa, White\nPorcelain","Ember Temperature Control Smart Mug 2, 10 Oz, App-Controlled Heated Coffee Mug with 80 Min Battery Life and Improved Design, Black\nStainless Steel"]
+[ 23-11-2025 00:57:39 ] INFO: TC011, First run titles: ["Featured from Amazon brands \nAmazon Basics Porcelain, 12 oz Coffee Mug Set, 12 Count, White\nPorcelain","Sponsored \n20oz Tumbler Bulk Stainless Steel Tumblers with Lid Vacuum Insulated Double Wall Travel Coffee Mug Powder Coated Tumbler Cup for Hot and Cold Drinks(Navy Blue, 6 pack)\nStainless Steel","Sponsored \nVolhoply 12oz Insulated Leakproof Coffee Mug with Flip & Straw Lid Bulk 8 Pack,Not Suitable for Sublimation,Double Wall Vacuum Stainless Steel Travel Tumbler Cup with Handle(White,8 Set)\nStainless Steel","Sponsored \nRechargeable Self Heating Coffee Mug, Fast Heating & High Temperature, 14 Oz App-Controlled Heated Coffee Mug, 1F Precise Temperature Control Smart Mug Warmer for 150 Min Use","Ember Temperature Control Smart Mug 2, 10 Oz, App-Controlled Heated Coffee Mug with 80 Min Battery Life and Improved Design, Black\nStainless Steel"]
+[ 23-11-2025 00:57:39 ] DEBUG: Product title: Ember Temperature Control Smart Mug 2, 10 Oz, App-Controlled Heated Coffee Mug with 80 Min Battery Life and Improved Design, Black
+Stainless Steel
+[ 23-11-2025 00:57:39 ] INFO: PASSED: TC011,  Top 5 results remain consistent across two runs
+[ 23-11-2025 00:57:39 ] END TEST: TC011,  Top 5 results remain consistent across two runs
+
+[ 23-11-2025 00:57:39 ] --------------------------------------------
+[ 23-11-2025 00:57:39 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:57:39 ] --------------------------------------------
+[ 23-11-2025 00:57:49 ] --------------------------------------------
+[ 23-11-2025 00:57:49 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:57:49 ] --------------------------------------------
+[ 23-11-2025 00:57:51 ] 
+START TEST: TC012, Verify result count consistency between UI label and actual DOM count
+
+[ 23-11-2025 00:57:51 ] INFO: Navigating to: /
+[ 23-11-2025 00:58:01 ] ERROR: FAILED: TC012, Verify result count consistency between UI label and actual DOM count
+[ 23-11-2025 00:58:01 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 00:58:01 ] END TEST: TC012, Verify result count consistency between UI label and actual DOM count
+
+[ 23-11-2025 00:58:01 ] --------------------------------------------
+[ 23-11-2025 00:58:01 ] --------------------------------------------
+[ 23-11-2025 00:58:01 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:58:06 ] --------------------------------------------
+[ 23-11-2025 00:58:06 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:58:06 ] --------------------------------------------
+[ 23-11-2025 00:58:07 ] 
+START TEST: TC013, Search results should load within acceptable time
+
+[ 23-11-2025 00:58:08 ] INFO: Navigating to: /
+[ 23-11-2025 00:58:09 ] ERROR: FAILED: TC013, Search results should load within acceptable time
+[ 23-11-2025 00:58:09 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 00:58:09 ] END TEST: TC013, Search results should load within acceptable time
+
+[ 23-11-2025 00:58:09 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:58:09 ] --------------------------------------------
+[ 23-11-2025 00:58:09 ] --------------------------------------------
+[ 23-11-2025 00:58:12 ] --------------------------------------------
+[ 23-11-2025 00:58:12 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:58:12 ] --------------------------------------------
+[ 23-11-2025 00:58:13 ] 
+START TEST: TC012, Verify result count consistency between UI label and actual DOM count
+
+[ 23-11-2025 00:58:14 ] INFO: Navigating to: /
+[ 23-11-2025 00:58:34 ] ERROR: FAILED: TC012, Verify result count consistency between UI label and actual DOM count
+[ 23-11-2025 00:58:34 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 00:58:34 ] END TEST: TC012, Verify result count consistency between UI label and actual DOM count
+
+[ 23-11-2025 00:58:34 ] --------------------------------------------
+[ 23-11-2025 00:58:34 ] --------------------------------------------
+[ 23-11-2025 00:58:34 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:58:36 ] --------------------------------------------
+[ 23-11-2025 00:58:36 ] --------------------------------------------
+[ 23-11-2025 00:58:36 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:58:38 ] 
+START TEST: TC012, Verify result count consistency between UI label and actual DOM count
+
+[ 23-11-2025 00:58:38 ] INFO: Navigating to: /
+[ 23-11-2025 00:58:40 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:58:42 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:58:42 ] INFO: Searching for item using Search button key: wireless mouse
+[ 23-11-2025 00:58:42 ] INFO: Searching for item using Search button key: wireless mouse
+[ 23-11-2025 00:58:51 ] INFO: Search completed using Search button for: wireless mouse
+[ 23-11-2025 00:58:51 ] INFO: Getting number of product cards...
+[ 23-11-2025 00:58:51 ] INFO: Getting product count from DOM...
+[ 23-11-2025 00:58:51 ] INFO: Visible product count on page: 22
+[ 23-11-2025 00:58:51 ] INFO: PASSED: TC012, Verify result count consistency between UI label and actual DOM count
+[ 23-11-2025 00:58:51 ] END TEST: TC012, Verify result count consistency between UI label and actual DOM count
+
+[ 23-11-2025 00:58:52 ] --------------------------------------------
+[ 23-11-2025 00:58:52 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:58:52 ] --------------------------------------------
+[ 23-11-2025 00:59:11 ] --------------------------------------------
+[ 23-11-2025 00:59:11 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 00:59:11 ] --------------------------------------------
+[ 23-11-2025 00:59:13 ] 
+START TEST: TC013, Search results should load within acceptable time
+
+[ 23-11-2025 00:59:13 ] INFO: Navigating to: /
+[ 23-11-2025 00:59:16 ] INFO: Applying locale cookies for US
+[ 23-11-2025 00:59:18 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 00:59:18 ] INFO: Measuring page load time...
+[ 23-11-2025 00:59:18 ] INFO: Searching for item using Search button key: coffee mug
+[ 23-11-2025 00:59:18 ] INFO: Searching for item using Search button key: coffee mug
+[ 23-11-2025 00:59:27 ] INFO: Search completed using Search button for: coffee mug
+[ 23-11-2025 00:59:27 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:59:31 ] INFO: TC013, Measured search → results load time: 12.5811248s
+[ 23-11-2025 00:59:31 ] INFO: Waiting for search results...
+[ 23-11-2025 00:59:31 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 00:59:35 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 00:59:35 ] INFO: PASSED: TC013, Search results should load within acceptable time
+[ 23-11-2025 00:59:35 ] END TEST: TC013, Search results should load within acceptable time
+
+[ 23-11-2025 00:59:36 ] --------------------------------------------
+[ 23-11-2025 00:59:36 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 00:59:36 ] --------------------------------------------
+[ 23-11-2025 01:00:13 ] --------------------------------------------
+[ 23-11-2025 01:00:13 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 01:00:13 ] --------------------------------------------
+[ 23-11-2025 01:00:14 ] 
+START TEST: TC014, Long query processes without crash or timeout
+
+[ 23-11-2025 01:00:15 ] INFO: Navigating to: /
+[ 23-11-2025 01:00:17 ] INFO: Applying locale cookies for US
+[ 23-11-2025 01:00:20 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 01:00:20 ] INFO: TC014, Generated long query of length: 3762
+[ 23-11-2025 01:00:20 ] INFO: Searching for item using Search button key: nonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistent
+[ 23-11-2025 01:00:20 ] INFO: Searching for item using Search button key: nonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistent
+[ 23-11-2025 01:00:28 ] INFO: Waiting for search results...
+[ 23-11-2025 01:00:28 ] INFO: Search completed using Search button for: nonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistent
+[ 23-11-2025 01:00:28 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 01:00:32 ] INFO: Checking if Other buying option text is present
+[ 23-11-2025 01:00:32 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 01:00:32 ] INFO: Checking for 'other buying option' message presence
+[ 23-11-2025 01:00:32 ] INFO: TC014-URL after search: https://www.amazon.com/s?k=nonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistentnonexistent&ref=nb_sb_noss
+[ 23-11-2025 01:00:32 ] INFO: TC014-Product count detected: 48
+[ 23-11-2025 01:00:32 ] INFO: TC014, Long query completed successfully without crash or UI break.
+[ 23-11-2025 01:00:33 ] INFO: PASSED: TC014, Long query processes without crash or timeout
+[ 23-11-2025 01:00:33 ] END TEST: TC014, Long query processes without crash or timeout
+
+[ 23-11-2025 01:00:33 ] --------------------------------------------
+[ 23-11-2025 01:00:33 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 01:00:33 ] --------------------------------------------
+[ 23-11-2025 01:01:32 ] --------------------------------------------
+[ 23-11-2025 01:01:32 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 01:01:32 ] --------------------------------------------
+[ 23-11-2025 01:01:33 ] 
+START TEST: Responsive Layout
+
+[ 23-11-2025 01:01:34 ] INFO: Navigating to: /
+[ 23-11-2025 01:01:38 ] ERROR: FAILED: Responsive Layout
+[ 23-11-2025 01:01:38 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 01:01:38 ] END TEST: Responsive Layout
+
+[ 23-11-2025 01:01:38 ] --------------------------------------------
+[ 23-11-2025 01:01:38 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 01:01:38 ] --------------------------------------------
+[ 23-11-2025 01:01:43 ] --------------------------------------------
+[ 23-11-2025 01:01:43 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 01:01:43 ] --------------------------------------------
+[ 23-11-2025 01:01:44 ] 
+START TEST: Responsive Layout
+
+[ 23-11-2025 01:01:45 ] INFO: Navigating to: /
+[ 23-11-2025 01:01:47 ] INFO: Applying locale cookies for US
+[ 23-11-2025 01:01:49 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 01:01:49 ] INFO: Searching for item using Search button key: lego classic brick box
+[ 23-11-2025 01:01:49 ] INFO: Searching for item using Search button key: lego classic brick box
+[ 23-11-2025 01:01:58 ] INFO: Search completed using Search button for: lego classic brick box
+[ 23-11-2025 01:01:58 ] INFO: Waiting for search results...
+[ 23-11-2025 01:01:58 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 01:02:02 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 01:02:07 ] INFO: PASSED: Responsive Layout
+[ 23-11-2025 01:02:07 ] END TEST: Responsive Layout
+
+[ 23-11-2025 01:02:07 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 01:02:07 ] --------------------------------------------
+[ 23-11-2025 01:02:07 ] --------------------------------------------
+[ 23-11-2025 01:02:16 ] --------------------------------------------
+[ 23-11-2025 01:02:16 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 01:02:16 ] --------------------------------------------
+[ 23-11-2025 01:02:17 ] 
+START TEST: Responsive Layout
+
+[ 23-11-2025 01:02:19 ] INFO: Navigating to: /
+[ 23-11-2025 01:02:22 ] INFO: Applying locale cookies for US
+[ 23-11-2025 01:02:25 ] INFO: Using desktop/tablet search locator
+[ 23-11-2025 01:02:25 ] INFO: Searching for item using Search button key: lego classic brick box
+[ 23-11-2025 01:02:25 ] INFO: Searching for item using Search button key: lego classic brick box
+[ 23-11-2025 01:02:34 ] INFO: Search completed using Search button for: lego classic brick box
+[ 23-11-2025 01:02:34 ] INFO: Waiting for search results...
+[ 23-11-2025 01:02:34 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 01:02:38 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 01:02:39 ] INFO: PASSED: Responsive Layout
+[ 23-11-2025 01:02:39 ] END TEST: Responsive Layout
+
+[ 23-11-2025 01:02:39 ] --------------------------------------------
+[ 23-11-2025 01:02:39 ] --------------------------------------------
+[ 23-11-2025 01:02:39 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 01:02:46 ] --------------------------------------------
+[ 23-11-2025 01:02:46 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 01:02:46 ] --------------------------------------------
+[ 23-11-2025 01:02:47 ] 
+START TEST: Responsive Layout
+
+[ 23-11-2025 01:02:47 ] INFO: Navigating to: /
+[ 23-11-2025 01:02:56 ] ERROR: FAILED: Responsive Layout
+[ 23-11-2025 01:02:56 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 01:02:56 ] END TEST: Responsive Layout
+
+[ 23-11-2025 01:02:58 ] 
+START TEST: Responsive Layout
+
+[ 23-11-2025 01:02:58 ] INFO: Navigating to: /
+[ 23-11-2025 01:03:00 ] ERROR: FAILED: Responsive Layout
+[ 23-11-2025 01:03:00 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 01:03:00 ] END TEST: Responsive Layout
+
+[ 23-11-2025 01:03:01 ] 
+START TEST: Responsive Layout
+
+[ 23-11-2025 01:03:02 ] INFO: Navigating to: /
+[ 23-11-2025 01:03:03 ] ERROR: FAILED: Responsive Layout
+[ 23-11-2025 01:03:03 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 01:03:03 ] END TEST: Responsive Layout
+
+[ 23-11-2025 01:03:03 ] --------------------------------------------
+[ 23-11-2025 01:03:03 ] --------------------------------------------
+[ 23-11-2025 01:03:03 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 01:03:21 ] --------------------------------------------
+[ 23-11-2025 01:03:21 ] INFO: TEST RUN STARTED — Total tests: 1
+[ 23-11-2025 01:03:21 ] --------------------------------------------
+[ 23-11-2025 01:03:22 ] 
+START TEST: Responsive Layout
+
+[ 23-11-2025 01:03:23 ] INFO: Navigating to: /
+[ 23-11-2025 01:03:41 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 01:03:41 ] ERROR: FAILED: Responsive Layout
+[ 23-11-2025 01:03:41 ] END TEST: Responsive Layout
+
+[ 23-11-2025 01:03:43 ] 
+START TEST: Responsive Layout
+
+[ 23-11-2025 01:03:43 ] INFO: Navigating to: /
+[ 23-11-2025 01:03:46 ] ERROR: FAILED: Responsive Layout
+[ 23-11-2025 01:03:46 ] ERROR: Error message: Error: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.amazon.com/", waiting until "domcontentloaded"[22m
+
+[ 23-11-2025 01:03:46 ] END TEST: Responsive Layout
+
+[ 23-11-2025 01:03:48 ] 
+START TEST: Responsive Layout
+
+[ 23-11-2025 01:03:48 ] INFO: Navigating to: /
+[ 23-11-2025 01:03:51 ] INFO: Applying locale cookies for US
+[ 23-11-2025 01:03:54 ] INFO: Using mobile search locator
+[ 23-11-2025 01:03:54 ] INFO: Searching for item using Search button key: lego classic brick box
+[ 23-11-2025 01:03:54 ] INFO: Searching for item using Search button key: lego classic brick box
+[ 23-11-2025 01:04:02 ] INFO: Search completed using Search button for: lego classic brick box
+[ 23-11-2025 01:04:02 ] INFO: Waiting for search results...
+[ 23-11-2025 01:04:02 ] INFO: Waiting for DOM search results to stabilize...
+[ 23-11-2025 01:04:06 ] WARNING: No product tiles found on this page.
+[ 23-11-2025 01:04:07 ] INFO: PASSED: Responsive Layout
+[ 23-11-2025 01:04:07 ] END TEST: Responsive Layout
+
+[ 23-11-2025 01:04:07 ] --------------------------------------------
+[ 23-11-2025 01:04:07 ] INFO: TEST RUN FINISHED
+[ 23-11-2025 01:04:07 ] --------------------------------------------

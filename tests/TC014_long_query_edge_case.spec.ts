@@ -1,8 +1,6 @@
-import { test, expect } from '@playwright/test';
-import { AmazonHomePage } from '../pages/AmazonHomePage';
-import { SearchResultsPage } from '../pages/SearchResultsPage';
-import { LoggerUtility } from '../utils/LoggerUtility';
-import testData from '../test_data/data.json';
+import { test, expect } from "./fixtures/pages.fixture";
+import { LoggerUtility } from "../utils/LoggerUtility";
+import testData from "../test_data/data.json";
 
 /**
  * TC014 – Long query processing stability
@@ -16,44 +14,36 @@ import testData from '../test_data/data.json';
  * 2. Navigate to the Amazon homepage
  * 3. Perform a search using the long query
  * 4. Wait for either search results or the fallback "no results" page to load
- * 5. Confirm that expectedmessaging "other buying option" is present
+ * 5. Confirm that expected messaging "other buying option" is present
  * 6. Validate that the URL does not redirect to an Amazon error page
  * 7. Wait for the search box to remain visible, confirming UI stability
  * 8. Count the number of product tiles and ensure the system returns a stable response
  *    (even if zero results are shown)
  */
 
-test("TC014, Long query processes without crash or timeout", async ({ page }) => {
-    const homePage = new AmazonHomePage(page);
-    const resultsPage = new SearchResultsPage(page);
+test("TC014, Long query processes without crash or timeout", async ({ homePage, resultsPage, page }) => {
 
-    const query = testData.longQuery;
-    const len = query.length;
-    LoggerUtility.info(`TC014, Generated long query of length: ${len}`);
+  const query = testData.longQuery;
+  const len = query.length;
+  LoggerUtility.info(`TC014, Generated long query of length: ${len}`);
 
-    await homePage.goto();
-    await homePage.searchForItem(query);
-    await resultsPage.waitForResults();  
+  await homePage.searchForItem(query);
+  await resultsPage.waitForResults();
 
-    // Confirm expected messaging is present
-    LoggerUtility.info("Checking if Other buying option text is present" );
-        const otherByingOptionText = await homePage.getCheckOtherOptionsMessage();
-        expect(otherByingOptionText).toContain('other buying option');
+  LoggerUtility.info("Checking if Other buying option text is present");
+  const otherByingOptionText = await homePage.getCheckOtherOptionsMessage();
+  expect(otherByingOptionText).toContain("other buying option");
 
-    // Validate system remains stable
-    const url = page.url().toLowerCase();
-    LoggerUtility.info(`TC014-URL after search: ${url}`);
+  const url = page.url().toLowerCase();
+  LoggerUtility.info(`TC014-URL after search: ${url}`);
 
-    // Amazon should not redirect to an error page
-    expect(url).not.toContain("error");
+  expect(url).not.toContain("error");
 
-    await homePage.waitForVisible(homePage.searchBox);
+  await homePage.waitForVisible(homePage.searchBox);
 
-    // Count product tiles
-    const productCount = await resultsPage.allTilesCards.count();
-    LoggerUtility.info(`TC014-Product count detected: ${productCount}`);
+  const productCount = await resultsPage.allTilesCards.count();
+  LoggerUtility.info(`TC014-Product count detected: ${productCount}`);
 
-    // Expect at least 0 products (no crash)
-    expect(productCount).toBeGreaterThanOrEqual(0); 
-    LoggerUtility.info("TC014, Long query completed successfully without crash or UI break.");
+  expect(productCount).toBeGreaterThanOrEqual(0);
+  LoggerUtility.info("TC014, Long query completed successfully without crash or UI break.");
 });

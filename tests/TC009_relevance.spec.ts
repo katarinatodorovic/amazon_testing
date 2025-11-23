@@ -1,9 +1,7 @@
-import { test, expect } from '@playwright/test';
-import { AmazonHomePage } from '../pages/AmazonHomePage';
-import { SearchResultsPage } from '../pages/SearchResultsPage';
-import { LoggerUtility } from '../utils/LoggerUtility';
-import testData from '../test_data/data.json';
-import { JsonTestDataReader } from '../utils/JsonTestDataReader';
+import { test, expect } from "./fixtures/relevance.fixture";
+import { LoggerUtility } from "../utils/LoggerUtility";
+import testData from "../test_data/data.json";
+import { JsonTestDataReader } from "../utils/JsonTestDataReader";
 
 /**
  * TC009 – Search results relevance
@@ -24,14 +22,10 @@ import { JsonTestDataReader } from '../utils/JsonTestDataReader';
  */
 
 test.describe("TC009, Search results relevance", () => {
-  test("TC009, At least 80% of top 10 results mention the search keyword", async ({ page }) => {
-
-    const homePage = new AmazonHomePage(page);
-    const resultsPage = new SearchResultsPage(page);
+  test("TC009, At least 80% of top 10 results mention the search keyword", async ({ homePage, resultsPage }) => {
 
     const searchTerm = testData.validProducts.wirelessMouse.toLowerCase();
 
-    // Load keyword dynamically from JSON
     const keywordVariants: string[] = JsonTestDataReader.getJSONValue(
       "keywordVariants.json",
       searchTerm
@@ -39,20 +33,16 @@ test.describe("TC009, Search results relevance", () => {
 
     LoggerUtility.info(`TC009 - Loaded keyword variants: ${JSON.stringify(keywordVariants)}`);
 
-   
-    await homePage.goto();
     await homePage.searchForItem(searchTerm);
 
     await resultsPage.waitForResults();
     const titles = await resultsPage.getTopProductTitles(10);
 
-    // Skip test properly if too few results exist
     if (titles.length < 5) {
       LoggerUtility.warn(`TC009 - Only found ${titles.length} results, skipping test.`);
-      test.skip(); 
+      test.skip();
     }
 
-    // Relevance check
     const relevantCount = titles.filter(title => {
       const text = title.toLowerCase();
       return keywordVariants.some(kw => text.includes(kw));
@@ -64,7 +54,6 @@ test.describe("TC009, Search results relevance", () => {
       `TC009, Relevant titles: ${relevantCount}/${titles.length} (${relevance.toFixed(0)}%)`
     );
 
-    // Validate ≥ 80% relevance
     expect(relevance).toBeGreaterThanOrEqual(80);
   });
 });

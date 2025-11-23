@@ -1,8 +1,6 @@
-import { test, expect } from '@playwright/test';
-import { AmazonHomePage } from '../pages/AmazonHomePage';
-import { SearchResultsPage } from '../pages/SearchResultsPage';
-import { LoggerUtility } from '../utils/LoggerUtility';
-import testData from '../test_data/data.json';
+import { test, expect } from "./fixtures/pages.fixture";
+import { LoggerUtility } from "../utils/LoggerUtility";
+import testData from "../test_data/data.json";
 
 /**
  * TC010 – Currency consistency (USD)
@@ -23,14 +21,10 @@ import testData from '../test_data/data.json';
  */
 
 test.describe("TC010, Currency consistency (USD)", () => {
-  test("TC010, Prices show in USD for US locale / ZIP", async ({ page }) => {
-    const homePage = new AmazonHomePage(page);
-    const resultsPage = new SearchResultsPage(page);
+  test("TC010, Prices show in USD for US locale / ZIP", async ({ homePage, resultsPage }) => {
 
     const searchTerm = testData.validProducts.wirelessMouse;
 
-    await homePage.goto(); 
-   
     await homePage.searchForItem(searchTerm);
     await resultsPage.waitForResults();
 

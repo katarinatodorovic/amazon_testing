@@ -1,7 +1,5 @@
-import { test, expect } from '@playwright/test';
-import testData from '../test_data/data.json';
-import { AmazonHomePage } from '../pages/AmazonHomePage';
-import { SearchResultsPage } from '../pages/SearchResultsPage';
+import { test, expect } from "./fixtures/network.fixture";
+import testData from "../test_data/data.json";
 
 /**
  * TC008 – Detect failed network requests during search
@@ -25,41 +23,23 @@ import { SearchResultsPage } from '../pages/SearchResultsPage';
  * 6. Assert that no critical asset or API request failed
  */
 
-test("TC008, Detect failed network requests during search", async ({ page }) => {
-  const failedRequests: { url: string; status: number }[] = [];
-  const searchResultsPage = new SearchResultsPage(page);
+test("TC008, Detect failed network requests during search", async ({ homePage, resultsPage, failedRequests }) => {
 
-  // enable network logging
-  page.on('response', async (response) => {
-    const status = response.status();
-    if (status >= 400) {
-      failedRequests.push({
-        url: response.url(),
-        status
-      });
-    }
-  });
-  const homePage = new AmazonHomePage(page);
-  
-  await homePage.goto();
-  await homePage.searchBox.fill(testData.validProducts.legoClassicBrickBox);
-  await homePage.searchButton.click();
+  await homePage.searchForItem(testData.validProducts.legoClassicBrickBox);
 
-  // Wait for search results to load
-  await searchResultsPage.waitForResults();
+  await resultsPage.waitForResults();
 
-  // Assert no critical failures for essential assets
-  // ignore ad failures, pixel trackers, analytics, and favicon requests
   const criticalFailures = failedRequests.filter(req =>
-    !req.url.includes('/suggestions') &&
-    !req.url.includes('ads') &&
-    !req.url.includes('pixel') &&
-    !req.url.includes('metrics') &&
-    !req.url.includes('favicon') &&
-    !req.url.includes('/ah/ajax/counter') 
+    !req.url.includes("/suggestions") &&
+    !req.url.includes("ads") &&
+    !req.url.includes("pixel") &&
+    !req.url.includes("metrics") &&
+    !req.url.includes("favicon") &&
+    !req.url.includes("/ah/ajax/counter")
   );
-  // Log all critical failures
-  expect(criticalFailures.length, `Critical failed requests:\n
-    ${JSON.stringify(criticalFailures, null, 2)}`)
-    .toBe(0);
+
+  expect(
+    criticalFailures.length,
+    `Critical failed requests:\n${JSON.stringify(criticalFailures, null, 2)}`
+  ).toBe(0);
 });

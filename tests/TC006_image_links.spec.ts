@@ -1,8 +1,6 @@
-import { test, expect } from '@playwright/test';
-import { AmazonHomePage } from '../pages/AmazonHomePage';
-import { SearchResultsPage } from '../pages/SearchResultsPage';
-import { LoggerUtility } from '../utils/LoggerUtility';
-import testData from '../test_data/data.json';
+import { test, expect } from "./fixtures/pages.fixture";
+import { LoggerUtility } from "../utils/LoggerUtility";
+import testData from "../test_data/data.json";
 
 /**
  * TC006 – Product image availability
@@ -21,46 +19,39 @@ import testData from '../test_data/data.json';
  */
 
 test.describe("TC006, Product image availability", () => {
- test("TC006, All product images should respond with HTTPS 200", async ({ page, request }) => {
-      const homePage = new AmazonHomePage(page);
-      const resultsPage = new SearchResultsPage(page);
-      test.setTimeout(120_000);
+  test("TC006, All product images should respond with HTTPS 200", async ({ homePage, resultsPage, page, request }) => {
+    test.setTimeout(120_000);
 
+    const searchTerm = testData.validProducts.coffeeMug;
 
-      const searchTerm = testData.validProducts.coffeeMug;
+    await homePage.searchForItem(searchTerm);
+    await resultsPage.waitForResults();
 
-      await homePage.goto();
+    await resultsPage.scrollUntilPaginationVisible();
 
-      await homePage.searchForItem(searchTerm);
-      await resultsPage.waitForResults();
+    const tiles = await resultsPage.getAllTiles();
+    LoggerUtility.info(`TC006 - Tiles found: ${tiles.length}`);
 
-      // Ensure all tiles are loaded
-      await resultsPage.scrollUntilPaginationVisible();
+    const broken: { index: number; url: string; status: number }[] = [];
 
-      const tiles = await resultsPage.getAllTiles();
-      LoggerUtility.info(`TC006 - Tiles found: ${tiles.length}`);
+    for (let i = 0; i < tiles.length; i++) {
+      const tile = tiles[i];
 
-      // Check each image URL
-      const broken: { index: number; url: string; status: number }[] = [];
+      const imageUrl = await tile.getImageFast();
+      if (!imageUrl) continue;
 
-      for (let i = 0; i < tiles.length; i++) {
-        const tile = tiles[i];
+      const response = await request.get(imageUrl);
+      const status = response.status();
 
-        const imageUrl = await tile.getImageFast();
-        if (!imageUrl) continue;
-
-        const response = await request.get(imageUrl);
-        const status = response.status();
-
-        if (status !== 200) {
-          broken.push({ index: i + 1, url: imageUrl, status });
-        }
+      if (status !== 200) {
+        broken.push({ index: i + 1, url: imageUrl, status });
       }
-      // Log any broken images
-      if (broken.length > 0) {
-        LoggerUtility.warn(`TC006, Broken images: ${JSON.stringify(broken, null, 2)}`);
-      }
+    }
 
-      expect(tiles.length).toBeGreaterThan(0);
+    if (broken.length > 0) {
+      LoggerUtility.warn(`TC006, Broken images: ${JSON.stringify(broken, null, 2)}`);
+    }
+
+    expect(tiles.length).toBeGreaterThan(0);
   });
 });
