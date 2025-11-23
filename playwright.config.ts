@@ -80,7 +80,9 @@ export default defineConfig({
   testDir: './tests',
   timeout: 60_000,
   fullyParallel: false,
-  globalSetup: './global-setup.ts',
+  // comment out since Login testing is skipped for now
+  // but can be enabled when needed and implenented
+ // globalSetup: './global-setup.ts',
   forbidOnly: !!process.env.CI,
   retries: 2,
   workers: process.env.CI ? 1 : 1,
@@ -94,7 +96,10 @@ export default defineConfig({
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     headless: false,
-    storageState: "storageStates/authState.json",
+   // commented out since Login testing is not implemented for now
+   // rather it is used for demonstration purposes
+  // but can be enabled when needed and implenented
+   // storageState: "storageStates/authState.json",
   },
 
   projects: [
