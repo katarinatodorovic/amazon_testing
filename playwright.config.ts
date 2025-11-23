@@ -89,13 +89,14 @@ export default defineConfig({
   reporter: [
     ['html'],
     ['list', { includeFailureTrace: true }],
-    ['./utils/GlobalLogger.ts']
+    ['./utils/GlobalLogger.ts'],
+    ['github']
   ],
 
   use: {
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
-    headless: false,
+    headless: true,
    // commented out since Login testing is not implemented for now
    // rather it is used for demonstration purposes
   // but can be enabled when needed and implenented
