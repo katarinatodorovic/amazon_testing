@@ -85,8 +85,8 @@ export class EncryptEnv {
 
     fs.writeFileSync(outputFile, encryptedLines.join("\n"), "utf8");
 
-    console.log(`✔ Encrypted → ${outputFile}`);
-    console.log(`✔ Use ENV=${TARGET_ENV} to load these credentials.`);
+    console.log(`Encrypted → ${outputFile}`);
+    console.log(`Use ENV=${TARGET_ENV} to load these credentials.`);
   }
 
   static decryptToConsole(): void {

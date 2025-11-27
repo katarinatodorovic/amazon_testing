@@ -76,9 +76,9 @@ export class BasePage {
     } else {
 
       LoggerUtility.info("Using desktop/tablet search locator");
+      await expect(this.desktopSearch).toBeVisible({ timeout: 15_000 });
       await this.handleContinueShoppingWindow();
-        }
-      await expect(this.mobileSearch).toBeVisible({ timeout: 15_000 });
+        }   
     }
 
   /**

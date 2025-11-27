@@ -18,6 +18,7 @@ export class PriceUtils {
  // LoggerUtility.info(`Parsing currency string: ${text}`);
   if (!text) return null;
 
+  // Clean whitespace
   let raw = text.replace(/\s+/g, '').trim();
 
   if (!raw) return null;
@@ -33,13 +34,13 @@ export class PriceUtils {
     return null;
   }
 
-  // Skip "from" prices
+  // Skip "from" prices, "ab" (german for from) etc. this should be adapted per locale
   const lower = raw.toLowerCase();
   if (lower.startsWith('from') || lower.startsWith('ab')) {
     return null;
   }
 
-  // Remove currency 
+  // Strip everything except digits, dot, and comma
   raw = raw.replace(/[^\d.,]/g, '');
 
   if (!raw) return null;
@@ -48,12 +49,15 @@ export class PriceUtils {
   const lastDot = raw.lastIndexOf('.');
   const lastComma = raw.lastIndexOf(',');
 
-  // EU format
+ // Check which comes last to determine format
   if (lastComma > lastDot) {
+     // EU format
+    // "1.234,56" -> "1234,56"
     raw = raw.replace(/\./g, '').replace(',', '.');
   }
   // US format
   else {
+    // "1,234.56" -> "1234.56"
     raw = raw.replace(/,/g, '');  
   }
 

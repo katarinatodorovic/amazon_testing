@@ -44,7 +44,7 @@ async waitForResults(timeout = 15_000): Promise<void> {
   await WaitUtils.waitForDomSearchResultsStable(this.page);
   await this.page.waitForTimeout(400);
 
-  LoggerUtility.warn("No product tiles found on this page.");
+  LoggerUtility.warn("Product tiles found on this page.");
 }
 
 /** 

@@ -90,6 +90,7 @@ export default defineConfig({
     ['html'],
     ['list', { includeFailureTrace: true }],
     ['./utils/GlobalLogger.ts'],
+    ['./utils/ReporterUtils.ts'],
     ['github']
   ],
 

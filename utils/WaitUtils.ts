@@ -26,8 +26,8 @@ export class WaitUtils {
    */
   static async forElementToBeInteractable(locator: Locator, timeout = 10_000): Promise<void> {
     LoggerUtility.info(`Waiting for element to be interactable: ${locator}`);
-    await locator.waitFor({ state: "visible", timeout });
     await locator.waitFor({ state: "attached", timeout });
+    await locator.waitFor({ state: "visible", timeout });
   }
 
  /**
@@ -61,6 +61,7 @@ static async waitForDomSearchResultsStable
   while (Date.now() - start < timeout) {
     await page.waitForTimeout(checkInterval);
 
+    // Check current count of product tiles
     const newCount = await grid.count();
     if (newCount === lastCount) {
       await page.waitForTimeout(stableMS);
@@ -73,6 +74,7 @@ static async waitForDomSearchResultsStable
 }
 
   /**
+   * // Sharp
    * Smart, reusable wait for search results (Amazon-reliable)
    * Used after performing a search
    * @param page - the Playwright Page object
@@ -122,6 +124,6 @@ static async waitForDomSearchResultsStable
   static async waitForPageReady(page: Page, timeout = 12_000): Promise<void> {
     LoggerUtility.info("Waiting for page to be ready...");
     await page.waitForLoadState('domcontentloaded', { timeout });
-    await this.waitForDomSearchResultsStable(page, 300);
+    await this.waitForDomSearchResultsStable(page);
   }
 }
